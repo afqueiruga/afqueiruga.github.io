@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-$\int_\Omega \mathrm{d}^3x$
+$$\int_\Omega \mathrm{d}^3x$$
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
