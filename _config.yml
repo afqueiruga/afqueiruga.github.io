@@ -14,19 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alejandro F Queiruga
-email: afq
-#[first initial] [middle initial] [last name] [at] lbl [dot] gov
+email: af(last name) (at) lbl (dot) gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  LaTeX files and handwritten notebooks end up in an ever growing
+  graveyard of scientific work. Now I'm just publishing all my work
+  incrementally, like how the internet's supposed to work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  afqueiruga
+bitbucket_username: afqueiruga
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima #jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
