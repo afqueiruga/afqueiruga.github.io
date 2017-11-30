@@ -41,7 +41,7 @@ Your browser does not support the video tag.
 
 
 
-# DEM Simulations of a Granular Shear Cell and Filter Cake Evolution
+# DEM Simulations of a Granular Shear Cell
 
 A discrete Element simulation is used to obtain local flow properties of a granular media inside of an anular shear cell. Particles are affixed to the inside wheel of the shear cell that rotates at a constant rate. Contacts between particles and between particles and the boundary resolved by a soft-sphere Hertzian spring-dashpot normal force and a history-based frictional force.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Workflow Scientific Blogging"
+title:  "New Workflow for Scientific Blogging"
 date:   2017-11-28 22:30:22 -0800
 categories: workflow
 ---
