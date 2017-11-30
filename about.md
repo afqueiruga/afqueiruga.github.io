@@ -4,17 +4,15 @@ title: About
 permalink: /about/
 ---
 
-$$\int_\Omega \mathrm{d}^3x$$
+# Bio
+I completed my Ph.D. at UC Berkeley in the spring of 2015, and received a M.Sc. in 2013. My dissertation title is "Microscale Simulation of the Mechanical and Electromagnetic Behavior of Textiles." I received a B.Sc. in Mechanical Engineering from Carnegie Mellon University in 2011.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present research is focused on developing computational methods for:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+1. hydraulic fracture extension,
+2. geomechanical modeling coupled to hydrological flows, and
+3. numerical algorithms for large-scale hydrological flow simulations.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.
 
-
-[jekyll-organization]: https://github.com/jekyll
+In my tool-sharpening efforts, I design meta-programming packages for scientific computing to use in my everyday work for techniques such as automatic differentiation and basis function generation. I am in the process of developing a domain-specific language and associated runtime package for use in general numerical codes.
