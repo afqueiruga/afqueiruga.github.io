@@ -5,6 +5,11 @@ permalink: /about/
 ---
 
 # Bio
+
+
+<!-- ![mugshot](images/mug.png) -->
+<img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
+
 I completed my Ph.D. at UC Berkeley in the spring of 2015, and received a M.Sc. in 2013. My dissertation title is "Microscale Simulation of the Mechanical and Electromagnetic Behavior of Textiles." I received a B.Sc. in Mechanical Engineering from Carnegie Mellon University in 2011.
 
 I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present research is focused on developing computational methods for:
