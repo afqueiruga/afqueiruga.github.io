@@ -64,7 +64,7 @@ which is different from the usual `./configure --prefix=/opt ; make install` we'
 
 TODO: Add arguments to configure and configure.py
 
-cjweek has a build.sh. But, this is a cmake project, so we have should probably have a `CMakeLists.txt`.
+cjweek has a build.sh. But, this is a cmake project, so why don't we have a `CMakeLists.txt`. 
 
 The process is:
 ```bash
