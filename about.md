@@ -21,10 +21,11 @@ Broadly, my research interests encompass meshless methods, Finite Element method
 
 In my tool-sharpening efforts, I design meta-programming packages for scientific computing to use in my everyday work for techniques such as automatic differentiation and basis function generation. I am in the process of developing a domain-specific language and associated runtime package for use in general numerical codes.
 
-You can find me around the internet:
-- [researchgate](https://www.researchgate.net/profile/Alejandro_Queiruga)
-- [bitbucket](https://bitbucket.org/afqueiruga/)
-- [github](https://github.com/afqueiruga)
-- [github (anonymous)](https://github.com/drgobble)
-- [reddit](https://www.reddit.com/user/drgobble/submitted/)
-- [instagram](https://www.instagram.com/alfrqu/)
+You can find different things I work on around the internet:  
+[researchgate](https://www.researchgate.net/profile/Alejandro_Queiruga)  
+[google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao)  
+[<i class="fa fa-bitbucket"></i> afqueiruga](https://bitbucket.org/afqueiruga/) Research codes  
+[<i class="fa fa-github"></i > afqueiruga](https://github.com/afqueiruga) Research codes  
+[<i class="fa fa-github"></i > drgobble](https://github.com/drgobble) Hobby codes  
+[<i class="fa fa-reddit"></i > drgobble](https://www.reddit.com/user/drgobble/submitted/) Keyboard builds  
+[<i class="fa fa-instagram"></i > alfrqu](https://www.instagram.com/alfrqu/) Art
