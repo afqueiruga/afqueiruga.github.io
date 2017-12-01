@@ -60,6 +60,3 @@ poster="images/gsc.thumbnail.jpg" width="500">
 Your browser does not support the video tag.
 </video></center>
 
-
-______
-
