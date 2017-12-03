@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Documenting My Learning of Tensorflow"
-date:   2017-11-28 22:30:22 -0800
+date:   2017-12-3
 categories: tensorflow
 ---
 
