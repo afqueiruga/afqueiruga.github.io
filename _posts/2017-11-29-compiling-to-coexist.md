@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Compiling TensorFlow"
-date:   2017-11-28 22:30:22 -0800
+title:  "Compiling TensorFlow from CMake"
+date:   2017-11-29 22:30:22 -0800
 categories: tensorflow
 ---
 

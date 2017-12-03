@@ -77,92 +77,24 @@ Carnegie Mellon University:
 Sciences Area**  
 Lawrence Berkeley National Laboratory
 
-  - Developing new high-performance finite-element geomechanics 
-    codes coupled to TOUGH+ hydrogeological flow codes. Deriving 
-    and implementing new mechanical constitutive models for 
-    methane hydrate sediments for oceanic reservoir simulation. 
-    Implementing high-order and enhanced 2D elements for 
-    plane-strain and axisymmetric configurations. 
-  - Developing fully coupled transport, porous flow, and 
-    nonlinear geomechanics finite element model using FEniCS. 
-    Simulating long-term brine injection and nonlinear seismic 
-    imaging.
-  - Parallelizing and optimizing TOUGH+ codes using 
-    high-performance parallel libraries. Effecting performance 
-    and accuracy improvements by analyzing and modifying linear 
-    algebra and time stepping algorithms.
-  - Developing new coupled computational fluid dynamics and 
-    particle-tracking numerical model for multi-phase proppant 
-    transport in heterogeneous fractures with sharp angular 
-    features. Implementing level set method to model fluid tip 
-    lag during hydraulic fracture process.
-  - Developed Peridynamic models for hydraulic fracture 
-    propagation and flow in fractured systems. Performed and 
-    published extensive numerical analysis of Peridynamics theory 
-    and method.
-  - Developer of tough_convert, a tool for pre- and 
-    post-processing of TOUGH data files for visualization.
-
 May-Oct. 2015 **Post-doctoral Researcher in Computational Materials 
 Research Lab**  
 University of California, Berkeley
-
-  - Implemented particle-fluid interaction simulations using 
-    Discontinuous Galerkin method and discrete element models. 
-    Characterization of shock-wave induced break-up and 
-    agglomeration behavior of suspended solid and liquid 
-    aggregates. Modeled detonation driven break-up and dispersal 
-    of large contaminating agents.
-  - Collaborated on-site with Edgewood Chemical Biological 
-    Center. 
 
 2011--2015 **Graduate Researcher in Computational Materials 
 Research Lab**  
 University of California, Berkeley
 
-  - Implemented multiscale models simulations for ballistic 
-    impact in layered electromagnetically sensitive fabrics. 
-    Derived Kirchhoff-circuit model for conducting high-strength 
-    threads moving through magnetic field.
-  - Designed nonlinear multiphysics beam finite elements and 
-    contact elements for electronic textiles for dynamic problems 
-    and material property prediction.
-  - Implemented new language syntax and library code into FEniCS 
-    open source finite element package to automatically generate 
-    contact and other element-element integrals in Python and 
-    C++.
-  - Derived electromagnetic potential formulation for high-speed 
-    moving conducting media. Designed time-stepping methods for 
-    related Differential Algebraic Equations using implicit and 
-    explicit Runge-Kutta methods.
-
 May-Aug. 2014 **U.S. Army Contractor at Adelphi Laboratory Center**  
 Army Research Lab, Adelphi, MD
-
-  - Developed finite element models for textile based materials 
-    and problems in electromagnetism.
 
 May-Aug. 2013 **Graduate Researcher in Advanced Technologies Group 
 of Engineering Division**  
 Lawrence Berkeley National Laboratory
 
-  - Reimplemented and optimized numerical simulation of Low Level 
-    Radio Frequency control system for linear particle 
-    accelerators.
-  - Achieved 10,000x speedup over preexisting code. 
-  - Designed input and output format coupled to web-based 
-    interface for real-time parameter studies.
-
 2008--2011 **Undergraduate Researcher in Particle Flow and 
 Tribology Lab**  
 Carnegie Mellon University
-
-  - Wrote general purpose, parallelized and optimized particle 
-    dynamics code using the Discrete Element Model in C using 
-    OpenMP.
-  - Performed parametric studies on granular flow in a bearing 
-    and on particle-liquid multiphase flow in filter-cake 
-    development for drilling simulation.
 
 #  Teaching
 

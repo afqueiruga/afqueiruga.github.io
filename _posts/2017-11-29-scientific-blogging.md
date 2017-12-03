@@ -17,7 +17,7 @@ Here's the current problem I'm trying to tackle. As a scientist, I
 am hyperfocused on a topic of interest, and I'll code it up, come up
 with conclusions, and start writing up a paper draft. The problem is
 that 90% of the time the research goes nowhere, so all of my notes,
-codes, and journal paper draft dies and lives in a decentralized
+codes, and journal paper drafts die in a decentralized
 graveyard across hard drives and moleskines. 
 
 # History
