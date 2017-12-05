@@ -101,15 +101,7 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
-  - Held discussion sections and office hours.
-  - Designed homework assignments and exams.
-
 May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
-
-  - Teacher and Teaching Assistant of enrichment classes for 
-    students in grades 5 to 8. 
-  - Classes taught include topics such as engineering challenges, 
-    computer programming, robotics, and computer animation.
 
 
 
@@ -125,7 +117,7 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 - Computational Particle Mechanics
 - Society of Petroleum Engineers Journal
 
-# Publications
+# Pipeline
 
 - **Queiruga, A. F.** and S. Pride. "Simulation of Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
@@ -151,76 +143,82 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
   Geomechanical Processes in Hydrate-Bearing Geologic Media, Part 
   3: Application to Large-scale Hydrate Production Analysis”, In 
   preparation for submission to Computers & Geosciences.
-- **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
+
+# Publications
+
+1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems." Computer 
   Methods in Applied Mechanics and Engineering 322 (2017): 
   97-122.
-- **Queiruga, A. F.** and T. Zohdi, “Microscale modeling of effective 
+1. **Queiruga, A. F.** and T. Zohdi, “Microscale modeling of effective 
   mechanical and electrical properties of textiles,” 
-  International Journal for Numerical Methods in Engineering, 
-  2016. doi: 10.1002/nme.5268.
-- **Queiruga, A. F.** and T. Zohdi, “Formulation and numerical 
+  International Journal for Numerical Methods in Engineering, 2016.
+  doi: 10.1002/nme.5268.
+1. **Queiruga, A. F.** and T. Zohdi, “Formulation and numerical 
   analysis of a fully-coupled dynamically deforming 
   electromagnetic wire,” Computer Methods in Applied Mechanics 
-  and Engineering, vol. 305, pp. 292--315, 2016. doi: 
-  10.1016/j.cma.2016.02.035.
-- Mpagazehe, J. N., **A. F. Queiruga**, and C. F. Higgs, “Towards an 
+  and Engineering, vol. 305, pp. 292--315, 2016. doi: 10.1016/j.cma.2016.02.035.
+1. Mpagazehe, J. N., **A. F. Queiruga**, and C. F. Higgs, “Towards an 
   understanding of the drilling process for fossil fuel energy: A 
   continuum-discrete approach,” Tribology International, vol. 59, 
   pp. 273–283, 2013. doi: 10.1016/j.triboint.2012.08.001.
 
 # Invited Talks
 
-- **Queiruga, A. F.** and G. J. Moridis, “Numerical experiments on 
+1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
+   Address the Numerical Stability of Peridynamics Near the Fracture
+   Tip in Hydraulic Extension," 18th U.S. National Congress for
+   Theoretical and Applied Mechanic, June 2018. **(upcoming)**
+1. **Queiruga, A. F.** and G. J. Moridis, “Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems,” World 
   Congress of Computational Mechanics, New York City, New York, 
-  July 2018.
-- Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
+  July 2018. **(upcoming)**
+1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
-  Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. 
+  Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
 
 #  Conference Papers and Presentations
 
-- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Analysis of 
-  the flow, thermal and geomechanical behavior of offshore 
-  hydrate deposits at the NGHP-02-09-A site during short- and 
-  long-term gas production scenarios,” AGU Fall Meeting, New 
-  Orleans, LA, December 2017. (Submitted)
-- Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
+1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
   stimuli”, Offshore Technology Conference, Kuala Lumpur, 
-  Malaysia, March, 2018. (Submitted)
-- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “The T+H+M 
+  Malaysia, March, 2018. **(upcoming)**
+1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Analysis of 
+  the flow, thermal and geomechanical behavior of offshore 
+  hydrate deposits at the NGHP-02-09-A site during short- and 
+  long-term gas production scenarios,” AGU Fall Meeting, New 
+  Orleans, LA, December 2017.  **(presenting author)**
+1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “The T+H+M 
   Code for the Analysis of Coupled Flow, Thermal, Chemical and 
   Geomechanical Processes in Hydrate-Bearing Geologic Media,” 9th 
-  International Gas Hydrates Conference, Denver, CO, June, 2016.
-- Moridis, G. J., M. T. Reagan and **A. F. Queiruga**, Long-term 
+  International Gas Hydrates Conference, Denver, CO, June, 2016. **(presenting author)**
+1. Moridis, G. J., M. T. Reagan and **A. F. Queiruga**, Long-term 
   System Behavior Following Cessation of Gas Production from 
   Hydrate Deposits,” 9th International Gas Hydrates Conference, 
   Denver, CO, June, 2016.
-- **Queiruga, A. F.** and G. J. Moridis, “NG21A-1806: Numerical 
+1. **Queiruga, A. F.** and G. J. Moridis, “NG21A-1806: Numerical 
   Simulation of Hydraulic Fracture Propagation using 
   Fully-Coupled Peridynamics, Thin-Film Flow, and Darcian Flow”, 
   AGU Fall Meeting, San Francisco, CA, December 2016.
-- Reagan, M. T., G. J. Moridis and **A. F. Queiruga**, "B21G-0510: 
+1. Reagan, M. T., G. J. Moridis and **A. F. Queiruga**, "B21G-0510: 
   Long-term fate of hydrate-bearing reservoirs during and after 
   production", AGU Fall Meeting, San Francisco, CA, December 
   2016.
-- Serrano, C.; Doolittle, L. R.; Driver, D. S.; **Queiruga, A. F.**; 
+1. Serrano, C.; Doolittle, L. R.; Driver, D. S.; **Queiruga, A. F.**; 
   Patel, B.; Zaky, Z.; Llimona, Q., “End-to-End FEL Beam 
   Stability Simulation Engine,” Proceedings of the 7th 
   International Particle Accelerator Conference, January 2016.
-- **Alejandro F. Queiruga**, Daniel S. Driver, Carlos Serrano, 
+1. **Alejandro F. Queiruga**, Daniel S. Driver, Carlos Serrano, 
   Lawrence Doolittle. “New Generation of LLRF and Beam-Based 
   Feedback Stability Models,” Low Level RF Workshop, October 
   2013.
-- **Alejandro F. Queiruga**, C. Fred Higgs III. “Optimization and 
+1. **Alejandro F. Queiruga**, C. Fred Higgs III. “Optimization and 
   Parallelization in Particle Dynamics Simulation,” Carnegie 
   Mellon Meeting of the Minds, May 2010.
-- **Alejandro F. Queiruga**, C. Fred Higgs III. “Parallelization in 
+1. **Alejandro F. Queiruga**, C. Fred Higgs III. “Parallelization in 
   Granular Flow Research,” Carnegie Mellon Meeting of the Minds, 
   May 2009.
 
