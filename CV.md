@@ -166,15 +166,15 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 # Invited Talks
 
-1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
-   Address the Numerical Stability of Peridynamics Near the Fracture
-   Tip in Hydraulic Extension," 18th U.S. National Congress for
-   Theoretical and Applied Mechanic, June 2018. **(upcoming)**
 1. **Queiruga, A. F.** and G. J. Moridis, “Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems,” World 
   Congress of Computational Mechanics, New York City, New York, 
   July 2018. **(upcoming)**
+1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
+   Address the Numerical Stability of Peridynamics Near the Fracture
+   Tip in Hydraulic Extension," 18th U.S. National Congress for
+   Theoretical and Applied Mechanic, June 2018. **(upcoming)**
 1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
   Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
@@ -232,7 +232,7 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 - https://github.com/BerkeleyLab/Global-Feedback-Simulator
 
+# Open Source Repositories
 
-
-
-
+- https://bitbucket.org/afqueiruga/
+- https://github.com/afqueiruga
