@@ -8,7 +8,7 @@ permalink: /about/
 
 <img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
 
-I am a post doctoral researcher at Lawrence Berkeley National
+I am a postdoctoral researcher at Lawrence Berkeley National
 Laboratory working in the
 [Earth and Environmental Sciences Area](https://eesa.lbl.gov).
 I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present research is focused on developing computational methods for:
