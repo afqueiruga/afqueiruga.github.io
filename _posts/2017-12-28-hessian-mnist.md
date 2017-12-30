@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "hessian_mnist"
-date: 2017-12-29
+date: 2017-12-28
 categories: tensorflow
 --- 
 # MNIST with Newton's Method
@@ -67,7 +67,7 @@ models with many variables, as the tensorflow gradient operator requires a flat,
 `V`, which we take the gradients against.
 
 `NewtonsMethod` is a dirt simple implementation. As it turns out, it's not
-viable for a certain reason... 
+viable for a certain reason. 
 
 **In [3]:**
 
@@ -173,7 +173,7 @@ m.shape
  
 It's a 7850x7850 dense matrix that takes up 235MB. In terms of side length, it's
 tiny, but it's dense, which makes it take up a ton of space and pretty expensive
-to solve on just a laptop. I solve matrices that are 60MB (sparse) all the time,
+to solve on just a laptop. I solve sparse matrices that are 60MB all the time,
 but beyond that it'll take MPI to get anywhere. 
  
 This is how we would do one step with Newton's method. Because we'll _never_ get
@@ -364,9 +364,9 @@ applying Newton's method.
  
 # Regularization 
  
-My gut instinct is taken a Laplacian as a way to kill entropy. This snippet is
+My gut instinct is to take a Laplacian as a way to kill entropy. This snippet is
 the finite difference laplacian hacked into the convolution operations from the
-[PDE example in the documentation](https://www.tensorflow.org/tutorials/pdes) 
+[PDE example in the documentation](https://www.tensorflow.org/tutorials/pdes): 
 
 **In [6]:**
 
@@ -392,10 +392,12 @@ def laplace(x):
 To apply it as a penalty, we take the laplacian of each slice of the $W$
 weights, sum the squares of each pixel, and add the sum to the original cross
 entropy cost function $\Pi$:
+
 $$
 \Pi' = \Pi + \epsilon \sum_{n=0}^{10} \left[ \sum_i\sum_j \left(\nabla^2
 W_{ij}^{[k]}\right)^2 \right ]
 $$
+
 where $\epsilon$ is a sufficiently small parameter to not interfere with the
 results, but large enough to fully constrain the problem numerically. 
 
@@ -409,7 +411,7 @@ PI = cross_entropy + 0.001*regu
 train_regu = tf.train.GradientDescentOptimizer(0.5).minimize(PI)
 ```
  
-Now lets repeat the training process and watch the evolution of the one of the
+Now let's repeat the training process and watch the evolution of the one of the
 weights 
 
 **In [10]:**
@@ -471,10 +473,11 @@ print(sess.run(accuracy, feed_dict={tf_x: mnist.test.images, tr_y: mnist.test.la
     0.9113
 
  
-Cool vizualization, huh? Similar accuracy, but we've suppressed all of that
-noise. We see that now all of the nodes have well defined values, even though we
-aren't able to generate the Hessian matrix because the neccessary aren't
-registered. 
+Cool vizualization, huh? We achieve a similar accuracy, but we've suppressed all
+of that artificially introduced noise. We see that now all of the nodes have
+well defined values. However, we aren't able to generate the Hessian matrix
+because the neccessary gradients of the gradient aren't registered for the
+convolutions, so we can't try out Newton's method. 
 
 **In [None]:**
 
