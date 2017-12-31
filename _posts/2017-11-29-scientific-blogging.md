@@ -20,27 +20,59 @@ that 90% of the time the research goes nowhere, so all of my notes,
 codes, and journal paper drafts die in a decentralized
 graveyard across hard drives and moleskines. 
 
+A talk I just attended by Nkosi Muse had an interesting take on classifying
+the form of communication:
+1. Scientist-to-scientist
+2. Scientist-to-public
+I'm only interested in the scientist-to-scientist aspect right now,
+but the scientist-to-public aspect brings up some interesting
+questions on what a new format should look like. I want an s2s format
+to absolutely complete: one report repository should contain all of
+the code, manuscript, and referenced data that is needed to replicate
+the analysis. 
+
+A good format should have this:
+1. Everything LaTeX can do: equations, BibTeX bibliography
+2. Simplified markup syntax (LaTeX is both ugly and unexpressive)
+3. Embed some basic codes that can execute, e.g. to create plots or
+tables
+4. Make hyperlink-esque references to the source code base
+5. Compile into both journal-friendly tex and website friendly html,
+   with conditional outputting, a la org-mode publish targets
+6. Easy to use, collaborate-able.
+
+
 # History
 
 I've tried tons of different work flows over the years:
 
 1. Pure LaTeX
-  - *Pro:* Lowest common denominater
+  - *Pro:* Lowest common denominator; will never be obsolete
   - *Pro:* Online editors like overleaf
-  - *Pro:* A lot of control over layout
+  - *Pro:* A lot of control over the pdf layout; good for
+    presentations and posters too
   - *Con:* The markup language is ugly, and too much control
   - *Con:* Looks ugly when it turns into html
+  - *Con:* Not a format for embedding code
 2. Pure LyX
   - *Pro:* Equation editor
-  - *Con:* Everything else
+  - *Pro:* Easy to use, but not common
+  - *Con:* Very clunky.
+  - *Con:* Subject to 
 3. IPython/Jupyter notebooks
-  - *Pro:* Interactively runs code,
-  - *Pro:* github will render it.
-  - *Con:* No control over what gets rendered when it
-   turns into a document.
- 4. org-mode:
-   - *Con:* Only emacs users use it.
-  - *Con:* It's an abomination.
+  - *Pro:* Interactively runs code
+  - *Pro:* github will render it
+  - *Pro:* Can output to PDF with embedded markdown
+  - *Con:* Meant for code, no control over what gets rendered
+  - *Con* Only one language at a time
+  - *Con:* Subject to becoming obsolete
+4. org-mode:
+  - *Pro:* It can do everything I want and more
+  - *Pro:* Plain text; Emacs will never be obsolete
+  - *Con:* Only emacs users use it, inaccessible to new users
+  - *Con:* It's an abomination, but in a good way
+  - *Con:* Setting up interactive code can be finicky, but I was
+    trying to do too much
 
 # On org-mode
 
@@ -88,14 +120,22 @@ them from being used for actual documents.)
 I stopped using the `ipython` environment, and switched to just
 "python" for the embedded code blocks.
 
-# What I'm looking for now
+# What I'm trying right now
 
 Currently I am back to pure LaTeX because I am collaborating with
-multiple different authors on this latest batch of papers. However, I
-still find my self
+multiple different authors on this latest batch of papers. However,
+with this site I'm trying something new. I'm looking for a new format
+to live in a more web-facing ecosystem. I'm trying to put intermediate
+stuff on github directly. 
 
-Presently, I'm looking for a new format to live in a more web-facing
-ecosystem. 
+I'm trying to get org-mode to render into Jekyll, but I can't get any
+of the Jekyll plugins to work. I'll have to rely on a build script.
+
+I also experimented with writing posts in Jupyter notebooks. The
+[hessian_mnist]({{tensorflow/2017/12/28/hessian-mnist.html}}) post is
+an example of this. This also needs a build script to convert the
+notebook into a Jekyll-friendly markdown format. I modified some I
+found on the internet and included it in this site's repository: [https://github.com/afqueiruga/afqueiruga.github.io/tree/master/scripts/jupyterconverter](https://github.com/afqueiruga/afqueiruga.github.io/tree/master/scripts/jupyterconverter)
 
 # Maths in Jekyll
 
@@ -122,7 +162,7 @@ copy the entire template, `_includes/head.html`, from
 directory. Then, I put 
 ```html
 <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -136,4 +176,5 @@ directory. Then, I put
 between the `head` tags in `head.html`. The inline modification lets
 me write the standard commands like `\$\alpha\$` embedded in the text,
 $\alpha$. Dollar signs in the code blocks are now an issue, but
-fortunately I don't program in any languages that use them.
+fortunately I don't program in any languages that use them. Note the
+'http**s**'; github.io won't load the script over http.
