@@ -103,27 +103,27 @@ for image_path in TEST_IMAGE_PATHS:
 ```
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_0.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_1.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_2.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_2.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_3.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_3.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_4.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_4.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_6_5.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_6_5.png) 
 
  
 ## What's a feature?
@@ -268,27 +268,27 @@ with tf.Session(graph=detection_graph) as sess:
 ```
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_0.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_1.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_2.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_2.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_3.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_3.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_4.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_4.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_17_5.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_17_5.png) 
 
  
 Looks cool. But, someone of the paintings aren't marked at all and there are
@@ -309,15 +309,15 @@ with tf.Session(graph=detection_graph) as sess:
 ```
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_19_0.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_19_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_19_1.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_19_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_19_2.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_19_2.png) 
 
  
 Now that looks pretty cool. In this cubist painting, we see a few
@@ -340,27 +340,27 @@ with tf.Session(graph=detection_graph) as sess:
 ```
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_0.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_1.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_2.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_2.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_3.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_3.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_4.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_4.png) 
 
 
  
-![png]({{ BASE_PATH }}/assets/Artwork-Classification_files/artwork-classification_21_5.png) 
+![png]({{ BASE_PATH }}/assets/artwork-classification_files/artwork-classification_21_5.png) 
 
  
 The spatial distribution of objects also is an indicator of composition. E.g.,
