@@ -132,7 +132,7 @@ I'm trying to get org-mode to render into Jekyll, but I can't get any
 of the Jekyll plugins to work. I'll have to rely on a build script.
 
 I also experimented with writing posts in Jupyter notebooks. The
-[hessian_mnist]({{tensorflow/2017/12/28/hessian-mnist.html}}) post is
+[hessian_mnist]({{/tensorflow/2017/12/28/hessian-mnist.html}}) post is
 an example of this. This also needs a build script to convert the
 notebook into a Jekyll-friendly markdown format. I modified some I
 found on the internet and included it in this site's repository: [https://github.com/afqueiruga/afqueiruga.github.io/tree/master/scripts/jupyterconverter](https://github.com/afqueiruga/afqueiruga.github.io/tree/master/scripts/jupyterconverter)

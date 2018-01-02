@@ -117,6 +117,10 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 - Computational Particle Mechanics
 - Society of Petroleum Engineers Journal
 
+# Recognitions
+
+- Society of Petroleum Engineers Journal 2017 Outstanding Technical Editor Award
+
 # Pipeline
 
 - **Queiruga, A. F.** and S. Pride. "Simulation of Changes in 
@@ -230,9 +234,9 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 # Notable Software
 
-- https://github.com/BerkeleyLab/Global-Feedback-Simulator
+- [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
 
 # Open Source Repositories
 
-- https://bitbucket.org/afqueiruga/
-- https://github.com/afqueiruga
+- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
+- [https://github.com/afqueiruga](https://github.com/afqueiruga)
