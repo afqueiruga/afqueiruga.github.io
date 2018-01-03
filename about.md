@@ -9,11 +9,12 @@ permalink: /about/
 <img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
 
 I am a postdoctoral researcher at Lawrence Berkeley National
-Laboratory working in the
-[Earth and Environmental Sciences Area](https://eesa.lbl.gov).
+Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov).
 I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present research is focused on developing computational methods for:
 
+1. oceanic gas hydrate reservoirs,
 1. hydraulic fracture extension,
+1. automated runtimes for multiscale simulation,
 2. geomechanical modeling coupled to hydrological flows, and
 3. numerical algorithms for large-scale hydrological flow simulations.
 

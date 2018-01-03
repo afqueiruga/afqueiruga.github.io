@@ -367,9 +367,3 @@ The spatial distribution of objects also is an indicator of composition. E.g.,
 look at the balance of identified objects in the first painting of the Rococo.
 
 Now I need to figure out how to encode these results as input to a model. 
-
-**In [None]:**
-
-```python
-
-```

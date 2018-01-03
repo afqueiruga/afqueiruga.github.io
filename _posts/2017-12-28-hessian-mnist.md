@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "hessian_mnist"
+title: "The Hessian of the Basic MNIST Classifier"
 date: 2017-12-28
 categories: tensorflow
 --- 
