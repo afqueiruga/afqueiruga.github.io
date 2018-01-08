@@ -19,15 +19,17 @@ It is finally at the point where I am comfortable putting it out in the wild.
 It is still not quite ready for actual usage by people other than myself,
 but it is suitable as a case study in scientific package architecture.
 
-Cornflakes is the serial assembly of kernels. 
+The names are puns on "kernel": Cornflakes is the serial assembly of kernels. Popcorn transforms compact kernel specifications in large and fluffy C code implementations. Husks are filled with kernels. (Cornflakes will run in parallel though, but I still liked the pun.)
 
+# Example
 
+[See the example notebook in the repository, https://bitbucket.org/afqueiruga/cornflakes/src/68d8e9bb47605663ed75e4d2a6858b350ff84a64/examples/spring_example.ipynb](https://bitbucket.org/afqueiruga/cornflakes/src/68d8e9bb47605663ed75e4d2a6858b350ff84a64/examples/spring_example.ipynb?at=develop&fileviewer=file-view-default)
 
 # Usages
 
-It's been used as the main library .
+Cornflakes the main library for a number of different of codes I write at LBNL.
 The following publications and conference presentations are a small
-slection that have made use of cornflakes. The poster has a good
+selection. The poster has a good
 description of the algorithm that was possible using cornflakes.
 
 - [Queiruga, A. F. and G. J. Moridis, “NG21A-1806: Numerical 
