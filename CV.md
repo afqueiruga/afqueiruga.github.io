@@ -43,7 +43,7 @@ permalink: /cv/
 
 2011--2015 **University of California, Berkeley**  
 **Ph.D.** in Mechanical Engineering, May 2015 (GPA: 3.84)  
-Designated Emphasis in Computational Science and Engineering  
+Designated Emphasis in Computational and Data Science and Engineering  
 Dissertation: *Microscale Simulation of the Mechanical and  
 Electromagnetic Behavior of Textiles*  
 **M.Sc.** in Mechanical Engineering, December 2013  

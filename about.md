@@ -10,20 +10,20 @@ permalink: /about/
 
 I am a postdoctoral researcher at Lawrence Berkeley National
 Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov).
-I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present research is focused on developing computational methods for:
+I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present work is focused on developing computational methods for:
 
+1. automated runtimes for multiscale simulation,
 1. oceanic gas hydrate reservoirs,
 1. hydraulic fracture extension,
-1. automated runtimes for multiscale simulation,
-2. geomechanical modeling coupled to hydrological flows, and
-3. numerical algorithms for large-scale hydrological flow simulations.
+2. geomechanics coupled to hydrogeological flows, and
+3. multiphase transport in geologic media.
 
 Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.
 
 In my tool-sharpening efforts, I design meta-programming packages for
 scientific computing to use in my everyday work for techniques such as
 automatic differentiation and basis function
-generation. [cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
+generation. [Cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
 of this work.
 
 You can find different things I work on around the internet:  
