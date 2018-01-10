@@ -23,7 +23,7 @@ The names are puns on "kernel": Cornflakes is the serial assembly of kernels. Po
 
 # Example
 
-[See the example notebook in the repository, https://bitbucket.org/afqueiruga/cornflakes/src/68d8e9bb47605663ed75e4d2a6858b350ff84a64/examples/spring_example.ipynb](https://bitbucket.org/afqueiruga/cornflakes/src/68d8e9bb47605663ed75e4d2a6858b350ff84a64/examples/spring_example.ipynb?at=develop&fileviewer=file-view-default)
+[See the example notebook in the repository, /examples/spring_example.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/afqueiruga/cornflakes/raw/5aa3b33210a61951d923846e2747c52076471f33/examples/spring_example.ipynb)
 
 # Usages
 
