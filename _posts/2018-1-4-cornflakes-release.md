@@ -60,9 +60,37 @@ A visualization of the simulation is included in the research gallery on this sl
 the poster linked above describes the algorithm.
 How does one even program this? Well, it took me less than a year because in that type,
 I wrote my own langauge and runtime to express it with!
-Using cornflakes, that model overview can be decomposed into the following kernels (beautifully
-hand drawn):
-![six kernels](/assets/source-release-cornflakes/kernels.png){: .center-image }  
+Using cornflakes, that model overview can be decomposed into the following (hand drawn) kernels:
+![six kernels](/assets/source-release-cornflakes/kernels.png){: .center-image }
+
+There are three classes of hypervertexes in this problem
+
+- Peridynamics points, $P$
+- Peridynamics bonds, $B$
+- Background mesh nodes, $Q$
+
+The schematic illustrates the physical meaning of the edge, and the bottom list shows the
+ordering of the hypervertices inside the hyperedge that corresponds to one kernel call.
+From left to right, top to bottom, these are
+
+- For state-based peridynamics: A point with vertex id $P_0$ surrounded by points with ids $P_1$ to $P_n$,
+connected with bonds
+who themselves have vertex ids $B_1$ to $B_n$;
+- For Darcy flow with FEM: A simple four-node quad whose nodes are vertices $Q_0$ to $Q_3$;
+- For fracture-matrix leakage connected a four node quad with a line segment: The four-node quad ($Q_0$ to $Q_3$) PLUS
+a two-node line, $B_0$ and $B_1$;
+- A single bond $B_0$ between points $P_0$ and $P_1$;
+- A line segment FEM connecting the bonds $B_0$ and $B_1$, which is directly coupled to the four peridynamics points
+defining the bond; and
+- A quad with a set of points inside of it.
+
+The vertex ids are just integers, with $P$, $B$, and $Q$ just denoting different ranges. E.g., if there are 100
+peridynamics points, 800 bonds, and 40 fem nodes, the last vertex has the id 939. The ranges would be 0-99 for $P$,
+$100-899$ for $B$, and 900-939 for $Q$. The labels mean absolutely nothing to cornflakes, but we use these types
+of schematics to figure out what the $DofSpaces$ and $DofMaps$ need to look like to fetch the data we need for
+each kernel. Note that the first and last kernel are variable length! The edges of a hypergraph don't require the
+same length, and popcorn kernels can take in variable length arguments, given an `l_edge` parameter, and the
+DSL can express Loops over symbolic ranges.
 
 
 # Stylistic Choices
