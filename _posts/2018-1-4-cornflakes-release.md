@@ -48,7 +48,7 @@ description of the algorithm that was possible using cornflakes.
 
 
 Consider the follow diagram of the simulation for hydraulic fracture extension described in the above poster:  
-![diagram](/assets/source-release-cornflakes/3waydiagram.pdf){: .center-image }  
+![diagram](/assets/source-release-cornflakes/3waydiagram.png){: .center-image }  
 It involves three different types of discretizations for three different sets of physics:
 
 1. a Peridynamics grid for mechanics and fracture,
