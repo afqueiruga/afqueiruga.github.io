@@ -95,7 +95,7 @@ DSL can express Loops over symbolic ranges.
 
 # Stylistic Choices
 
-## Language
+### Language
 
 I chose Python/C because it was, and still is, the state of the art when I
 started writing.
@@ -114,13 +114,13 @@ I think it would be possible to use Sympy inside of Julia now, but there are sti
 Sympy is slow for some of my calculations, too.
 Maybe a new symbolic toolkit in Julia that leverages its JIT could be blazingly fast.
 
-## C Api
+### C Api
 
 I wanted a pure C API at first, [but this gets out of hand quickly.](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)
 Just embed a higher level language when you need to interact with legacy codes.
 It's easier than expressing complicated simulations in pure C or Fortran.
 
-## Integrating Parallelism in a prototyping environment.
+### Integrating Parallelism in a prototyping environment.
 
 At first I wanted a serial and a parallel implementation of the runtime; i.e. one for interactive
 runs in IPython on a laptop and one for HPC systems. (Hence the "cereal" pun for cornflakes. The
@@ -132,7 +132,7 @@ However, I am still conflicted on how
 to manage the type system to make the Numpy/Scipy types transparent, but still wrap parallel data structures.
 I think the Julia array interface would solve this, but that may be wishful thinking.
 
-## Swig
+### Swig
 
 I used SWIG as the Python/C binding since it's worked well enough for me
 in the past.
@@ -140,13 +140,13 @@ I probably won't use it again.
 This has caused tons of headaches with allocation tracking and memory leaks.
 I even had to make direct calls to the Python API. 
 
-## Object system
+### Object system
 If you look carefully at the C source, you'll notice that I hand-coded my own polymorphic object system for
 `cfdata_t`, `cfmat_t`, and `dofmap_t`.
 Don't do this! This is bad practice! I'm a crazy person! 
 I would never use an obscure practice in a codebase with multiple authors.
 I just really hate the C++ class system, but that's another discussion about language design.
-I really like The Julia type system, which is another motivator for switching.
+I really like the Julia type system, which is another motivator for switching.
 (My latest C++ code has a hacked vtable, too, for virtual template methods.)
 
 *Some* of the blame goes to my colleague [Jeff Johnson](https://github.com/jjphatt/polymec-dev/blob/master/core/sp_func.c),
