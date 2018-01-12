@@ -79,21 +79,23 @@ who themselves have vertex ids $B_1$ to $B_n$;
 - For Darcy flow with FEM: A simple four-node quad whose nodes are vertices $Q_0$ to $Q_3$;
 - For fracture-matrix leakage connected a four node quad with a line segment: The four-node quad ($Q_0$ to $Q_3$) PLUS
 a two-node line, $B_0$ and $B_1$;
-- A single bond $B_0$ between points $P_0$ and $P_1$;
-- A line segment FEM connecting the bonds $B_0$ and $B_1$, which is directly coupled to the four peridynamics points
+- For damage evaluation: A single bond $B_0$ between points $P_0$ and $P_1$;
+- For fracture flow: A line segment FEM connecting the bonds $B_0$ and $B_1$, which is directly coupled to the four peridynamics points
 defining the bond; and
-- A quad with a set of points inside of it.
+- For poroelastic (poroous flow to mechanics) coupling: A quad with a set of points inside of it.
 
 The vertex ids are just integers, with $P$, $B$, and $Q$ just denoting different ranges. E.g., if there are 100
 peridynamics points, 800 bonds, and 40 fem nodes, the last vertex has the id 939. The ranges would be 0-99 for $P$,
-$100-899$ for $B$, and 900-939 for $Q$. The labels mean absolutely nothing to cornflakes, but we use these types
-of schematics to figure out what the $DofSpaces$ and $DofMaps$ need to look like to fetch the data we need for
+100-899 for $B$, and 900-939 for $Q$. The labels mean absolutely nothing to cornflakes, but we use these types
+of schematics to figure out what the `DofSpace`s and `DofMap`s need to look like to fetch the data we need for
 each kernel. Note that the first and last kernel are variable length! The edges of a hypergraph don't require the
 same length, and popcorn kernels can take in variable length arguments, given an `l_edge` parameter, and the
 DSL can express Loops over symbolic ranges.
 
 
 # Stylistic Choices
+
+## Language
 
 I chose Python/C because it was, and still is, the state of the art when I
 started writing.
@@ -105,28 +107,58 @@ but I have abandoned that decision and am okay with that now.
 The latest version of TOUGH+ has an embedded Python interpretter that
 executes the Python/C-based mechanics library 
 
-Julia doesn't have its own symbolic library, and the Python interface was wonky when
-I experimented with it.
+Julia also has a very good macro system, enabling manipulation of the AST.
+I want to implement Popcorn inside of Julia entirely, instead of the Python-->C generation scheme.
+However, Julia doesn't have its own symbolic library, and the Python interface was wonky when I experimented with it.
+I think it would be possible to use Sympy inside of Julia now, but there are still two languages.
+Sympy is slow for some of my calculations, too.
+Maybe a new symbolic toolkit in Julia that leverages its JIT could be blazingly fast.
 
-A few other things I would do differently:
-1. I wanted a pure C API at first, [but this gets out of hand quickly.](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)
+## C Api
+
+I wanted a pure C API at first, [but this gets out of hand quickly.](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)
 Just embed a higher level language when you need to interact with legacy codes.
 It's easier than expressing complicated simulations in pure C or Fortran.
-2. I used SWIG as the Python/C binding since it's worked well enough for me
+
+## Integrating Parallelism in a prototyping environment.
+
+At first I wanted a serial and a parallel implementation of the runtime; i.e. one for interactive
+runs in IPython on a laptop and one for HPC systems. (Hence the "cereal" pun for cornflakes. The
+parallel version was going to be called cornfield or thresher or some other pun involving many stalks of corn.)
+However, I think it's best to only have _one_ version.
+Requiring the user to install PETSc for a laptop system also can complicate matters.
+Distributing Docker images solves the problem of requiring HPC libraries, so it may be viable to require a PETSc backend.
+However, I am still conflicted on how
+to manage the type system to make the Numpy/Scipy types transparent, but still wrap parallel data structures.
+I think the Julia array interface would solve this, but that may be wishful thinking.
+
+## Swig
+
+I used SWIG as the Python/C binding since it's worked well enough for me
 in the past.
 I probably won't use it again.
 This has caused tons of headaches with allocation tracking and memory leaks.
 I even had to make direct calls to the Python API. 
-3. If you look carefully at the C source, you'll notice that I hand-coded my own
-polymorphic object system.
-Don't do this! This is bad practice! I'm a crazy person!
-I just hate the C++ class system.
+
+## Object system
+If you look carefully at the C source, you'll notice that I hand-coded my own polymorphic object system for
+`cfdata_t`, `cfmat_t`, and `dofmap_t`.
+Don't do this! This is bad practice! I'm a crazy person! 
+I would never use an obscure practice in a codebase with multiple authors.
+I just really hate the C++ class system, but that's another discussion about language design.
+I really like The Julia type system, which is another motivator for switching.
 (My latest C++ code has a hacked vtable, too, for virtual template methods.)
+
+*Some* of the blame goes to my colleague [Jeff Johnson](https://github.com/jjphatt/polymec-dev/blob/master/core/sp_func.c),
+who may have been a bad influence on that.
+I jest; I thank him dearly for our discussions on code architecture for these types of packages.
+Cornflakes would have been much messier without his advice.
+
 
 # Future
 
-The hypergraph partitioning algorithm has been implemented and tested in
-another development code using PETSc, but hasn't made its way into cornflakes
-yet. I am still debating on major syltistic changes before parallelizing cornflakes.
+The hypergraph partitioning algorithm has been implemented and tested in another development code
+using PETSc, but hasn't made its way into cornflakes yet.
+I am still debating on the major syltistic changes I discussed above before parallelizing cornflakes.
 
 I'll probably be rewriting it all in Julia.
