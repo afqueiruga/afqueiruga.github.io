@@ -5,7 +5,7 @@ date: 2018-1-4
 categories: codes
 ---
 
-# Intro
+## Intro
 
 I have released the source code of my new scientific packages, cornflakes
 and popcorn. They are located on my Bitbucket repositories at
@@ -21,11 +21,11 @@ but it is suitable as a case study in scientific package architecture.
 
 The names are puns on "kernel": Cornflakes is the serial assembly of kernels. Popcorn transforms compact kernel specifications in large and fluffy C code implementations. Husks are filled with kernels. (Cornflakes will run in parallel though, but I still liked the pun.)
 
-# Example
+## Example
 
 [See the example notebook in the repository, /examples/spring_example.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/afqueiruga/cornflakes/raw/5aa3b33210a61951d923846e2747c52076471f33/examples/spring_example.ipynb)
 
-# Usages
+## Usages
 
 Cornflakes the main library for a number of different of codes I write at LBNL.
 The following publications and conference presentations are a small
@@ -93,7 +93,7 @@ same length, and popcorn kernels can take in variable length arguments, given an
 DSL can express Loops over symbolic ranges.
 
 
-# Stylistic Choices
+## Stylistic Choices
 
 ### Language
 
@@ -155,7 +155,7 @@ I jest; I thank him dearly for our discussions on code architecture for these ty
 Cornflakes would have been much messier without his advice.
 
 
-# Future
+## Future
 
 The hypergraph partitioning algorithm has been implemented and tested in another development code
 using PETSc, but hasn't made its way into cornflakes yet.
