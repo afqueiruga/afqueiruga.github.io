@@ -8,7 +8,7 @@ categories: codes
 ## Intro
 
 I have released the source code of my new scientific packages, cornflakes
-and popcorn. They are located on my Bitbucket repositories at
+and popcorn. They are located in Bitbucket repositories at
 
 - [https://bitbucket.org/afqueiruga/cornflakes](https://bitbucket.org/afqueiruga/cornflakes)
 - [https://bitbucket.org/afqueiruga/popcorn](https://bitbucket.org/afqueiruga/popcorn)
@@ -19,7 +19,36 @@ It is finally at the point where I am comfortable putting it out in the wild.
 It is still not quite ready for actual usage by people other than myself,
 but it is suitable as a case study in scientific package architecture.
 
+The design goal for cornflakes/popcorn is to become a _tool for implementing_ new numerical methods and the domain specific languages for them. The popcorn DSL is a transpiler for symbolic expressions, and cornflakes is an implementation of a general purpose map-assemble operator with supporting code for building hypergraph representations of problems.
+
 The names are puns on "kernel": Cornflakes is the serial assembly of kernels. Popcorn transforms compact kernel specifications in large and fluffy C code implementations. Husks are filled with kernels. (Cornflakes will run in parallel though, but I still liked the pun.)
+
+## Overview
+
+In the design philosopy of cornflakes, many high performance scientific
+programs all share a similar characteristic:
+1. Calculations are performmed on a small chunk of data at a time: the
+   physical kernel. (This is the realm of popcorn.)
+2. The inidividual calculations and required data are distributed across a large amount of resources for parallel computation. (This is the realm of cornflakes.)
+   
+For a finite element method program, the calculation of the local element matrix is the kernel that is the smallest unit of computational work to be distributed across processing nodes. Developing algorithms and working code on both sides of the program is a challenge.
+   
+Higher order numerical algorithms for both temporal discretizations, such as many-stage implicit Runge-Kutta methods, and spatial discretizations, such as high order finite element basis functions, are, in the author's opinion, underused owing to the great difficulties in their implementation. A major barrier to using the more complex numerical schemes is the generation of the tangent matrix: that is, the $\mathbf{K}$  in the problem $\mathbf{K}\mathbf{u}=\mathbf{f}$. Developing the form of the matrix is manageable for linear problems, though quickly becomes difficult for nonlinear fully-coupled multiphysics problems. These types of problems are typically described mathematically as either minimization problems on a Lagrangian or some other expression of a potential, 
+\begin{equation}
+\min_{\mathbf{u}}\Pi\left(\mathbf{u}\right),
+\end{equation}
+or as nonlinear systems of equations,
+\begin{equation}
+\mathbf{f}\left(\mathbf{u}\right)=0.
+\end{equation}
+ Solving these problems statically or with an implicit time stepping method usually centers around linearizing the functions and employing Newton's method, or some variant thereof, and iterating over a series of linear systems,
+\begin{equation}
+ \mathbf{f}\left(\mathbf{u}^{I}\right)+\left.\frac{\partial\mathbf{f}}{\partial\mathbf{u}}\right|_{\mathbf{u}^{I}}\Delta\mathbf{u}^{I}	=	0,
+\end{equation}
+ with $\mathbf{f}=\frac{\partial\Pi}{\partial\mathbf{u}}$
+ if the problem was originally expressed with a potential. Even neglecting the effort required to write the code itself, it can require many weeks of pencil-and-paper work manipulating the mathematical expressions to produce a linearized equation.
+
+The Readme.md in [the cornlakes repository](https://bitbucket.org/afqueiruga/cornflakes) explains the hypergraph and map-assemble abstraction in great detail. In the rest of this post, I talk about a very complicated example that motivated its development, and then some software design considerations I am still mulling over.
 
 ## Example
 
@@ -164,8 +193,8 @@ Cornflakes would have been much messier without his advice.
 
 Besides the excellent advice from Jeff mentioned above, there were a number of important inputs to my line of tought.
 The FEniCS project is a central inspiration to this work.
-My frequent discussions (or arguments) about DSLs with Daniel Driver, author of "Dan++", informed many design decisions to Cornflakes.
-I also acknowledge the inspiration of Per-Olof Persson, whose one line in lecture on Runge-Kuttas six years ago---"You just implement $\mathbf{u}$ as a pointer to data"---completely changed my view of what the right data structures should be.
+My frequent discussions (or arguments) about DSLs with [Daniel Driver, author of "Dan++",](https://search.proquest.com/docview/1778864696) yielding many design decisions to cornflakes.
+I also acknowledge the inspiration of Per-Olof Persson, whose one line in a lecture on Runge-Kuttas six years ago---"You just implement $\mathbf{u}$ as a pointer to data"---completely changed my view of what the right data structures should be.
 
 Development support for this language was provided while addressing the needs of multiple projects at Lawrence Berkeley National Lab, including those mentioned above.
 
@@ -173,10 +202,10 @@ Development support for this language was provided while addressing the needs of
 ## Future
 
 Cornflakes was designed as a new way to express parallelism, but I still haven't done it.
-A deprecated implementation is in the source code for OpenMP threading of `Assemble`.
 The unstructured hypergraph partitioning algorithm has been implemented and tested in another development code
 using PETSc, but hasn't made its way into cornflakes yet.
 I am still debating on the major type system changes I discussed above before parallelizing cornflakes.
+A deprecated implementation is in the source code for OpenMP threading of `Assemble`.
 The popcorn specification should also be able to generate code for vectorized CPUs and GPUs quite easily.
 
 I will be soon adding a more complex example of a family of meshless methods (Moving Least Squares and the Reproducing Kernel Particle Method) to the cornflakes repository. I am also preparing an open source Peridynamics solver based on cornflakes to be released ahead of some upcoming conference presentations.
