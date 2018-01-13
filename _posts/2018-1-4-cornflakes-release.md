@@ -58,16 +58,16 @@ It involves three different types of discretizations for three different sets of
 that are fully coupled.
 A visualization of the simulation is included in the research gallery on this slide, and
 the poster linked above describes the algorithm.
-How does one even program this? Well, it took me less than a year because in that type,
+How does one even program this? Well, it took me less than a year because, in that time,
 I wrote my own langauge and runtime to express it with!
-Using cornflakes, that model overview can be decomposed into the following (hand drawn) kernels:
-![six kernels](/assets/source-release-cornflakes/kernels.png){: .center-image }
-
-There are three classes of hypervertexes in this problem
+Using cornflakes, there are three classes of hypervertices in this problem:
 
 - Peridynamics points, $P$
 - Peridynamics bonds, $B$
 - Background mesh nodes, $Q$
+
+That model overview can be decomposed into the following (hand drawn) kernels:
+![six kernels](/assets/source-release-cornflakes/kernels.png){: .center-image }
 
 The schematic illustrates the physical meaning of the edge, and the bottom list shows the
 ordering of the hypervertices inside the hyperedge that corresponds to one kernel call.
@@ -82,7 +82,7 @@ a two-node line, $B_0$ and $B_1$;
 - For damage evaluation: A single bond $B_0$ between points $P_0$ and $P_1$;
 - For fracture flow: A line segment FEM connecting the bonds $B_0$ and $B_1$, which is directly coupled to the four peridynamics points
 defining the bond; and
-- For poroelastic (poroous flow to mechanics) coupling: A quad with a set of points inside of it.
+- For poroelastic (porous flow to mechanics) coupling: A quad with a set of points inside of it.
 
 The vertex ids are just integers, with $P$, $B$, and $Q$ just denoting different ranges. E.g., if there are 100
 peridynamics points, 800 bonds, and 40 fem nodes, the last vertex has the id 939. The ranges would be 0-99 for $P$,
@@ -104,7 +104,7 @@ Originally, I wanted cornflakes to have a pure C API that didn't require Python
 to make it easy to link to preexisting code.
 Julia requires the runtime and doesn't support outputting linkable objects,
 but I have abandoned that decision and am okay with that now. 
-The latest version of TOUGH+ has an embedded Python interpretter that
+The latest version of TOUGH+ has an embedded Python interpreter that
 executes the Python/C-based mechanics library 
 
 Julia also has a very good macro system, enabling manipulation of the AST.
@@ -120,7 +120,7 @@ I wanted a pure C API at first, [but this gets out of hand quickly.](https://en.
 Just embed a higher level language when you need to interact with legacy codes.
 It's easier than expressing complicated simulations in pure C or Fortran.
 
-### Integrating Parallelism in a prototyping environment.
+### Integrating parallelism in a prototyping environment.
 
 At first I wanted a serial and a parallel implementation of the runtime; i.e. one for interactive
 runs in IPython on a laptop and one for HPC systems. (Hence the "cereal" pun for cornflakes. The
@@ -132,7 +132,7 @@ However, I am still conflicted on how
 to manage the type system to make the Numpy/Scipy types transparent, but still wrap parallel data structures.
 I think the Julia array interface would solve this, but that may be wishful thinking.
 
-### Swig
+### SWIG
 
 I used SWIG as the Python/C binding since it's worked well enough for me
 in the past.
@@ -145,20 +145,40 @@ If you look carefully at the C source, you'll notice that I hand-coded my own po
 `cfdata_t`, `cfmat_t`, and `dofmap_t`.
 Don't do this! This is bad practice! I'm a crazy person! 
 I would never use an obscure practice in a codebase with multiple authors.
+General purpose software should avoid using motifs only familiar to low-level C programmers to remain accessible to
+the users; a cryptic implementation won't be educational to an end user trying to learn more about the software design.
 I just really hate the C++ class system, but that's another discussion about language design.
-I really like the Julia type system, which is another motivator for switching.
 (My latest C++ code has a hacked vtable, too, for virtual template methods.)
+I really like the Julia type system, which is another motivator for switching.
+
 
 *Some* of the blame goes to my colleague [Jeff Johnson](https://github.com/jjphatt/polymec-dev/blob/master/core/sp_func.c),
 who may have been a bad influence on that.
+(He points out that this paradigm is indeed very common, to which I counter that, unlike us, most fellow scientists
+don't spend their free time reading the Linux kernel source for inspiration.)
 I jest; I thank him dearly for our discussions on code architecture for these types of packages.
 Cornflakes would have been much messier without his advice.
 
 
+## Acknowledgements
+
+Besides the excellent advice from Jeff mentioned above, there were a number of important inputs to my line of tought.
+The FEniCS project is a central inspiration to this work.
+My frequent discussions (or arguments) about DSLs with Daniel Driver, author of "Dan++", informed many design decisions to Cornflakes.
+I also acknowledge the inspiration of Per-Olof Persson, whose one line in lecture on Runge-Kuttas six years ago---"You just implement $\mathbf{u}$ as a pointer to data"---completely changed my view of what the right data structures should be.
+
+Development support for this language was provided while addressing the needs of multiple projects at Lawrence Berkeley National Lab, including those mentioned above.
+
+ 
 ## Future
 
-The hypergraph partitioning algorithm has been implemented and tested in another development code
+Cornflakes was designed as a new way to express parallelism, but I still haven't done it.
+A deprecated implementation is in the source code for OpenMP threading of `Assemble`.
+The unstructured hypergraph partitioning algorithm has been implemented and tested in another development code
 using PETSc, but hasn't made its way into cornflakes yet.
-I am still debating on the major syltistic changes I discussed above before parallelizing cornflakes.
+I am still debating on the major type system changes I discussed above before parallelizing cornflakes.
+The popcorn specification should also be able to generate code for vectorized CPUs and GPUs quite easily.
 
-I'll probably be rewriting it all in Julia.
+I will be soon adding a more complex example of a family of meshless methods (Moving Least Squares and the Reproducing Kernel Particle Method) to the cornflakes repository. I am also preparing an open source Peridynamics solver based on cornflakes to be released ahead of some upcoming conference presentations.
+
+I'll probably be rewriting it all in Julia at some point.
