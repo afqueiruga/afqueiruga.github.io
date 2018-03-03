@@ -8,29 +8,61 @@ permalink: /about/
 
 <img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
 
-I am a postdoctoral researcher at Lawrence Berkeley National
-Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov).
-I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present work is focused on developing computational methods for:
+I am a numerical computation researcher at Lawrence Berkeley National
+Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov)
+My skill set includes:
 
-1. automated runtimes for multiscale simulation,
-1. oceanic gas hydrate reservoirs,
-1. hydraulic fracture extension,
-2. geomechanics coupled to hydrogeological flows, and
-3. multiphase transport in geologic media.
+1. Solution and optimization of nonlinear problems,
+1. Software engineering and algorithm design for number-crunching applications,
+1. Analysis of the accuracy and stability of numerical algorithms,
+1. Syntax tree manipulation and generation, and
+1. Computation on parallel systems and exotic hardware.
 
-Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.
+I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My work in Energy Geosciences is currently directed towards tackling the following problems:
 
-In my tool-sharpening efforts, I design meta-programming packages for
+1. Predicting the responses of oceanic gas hydrate reservoirs,
+1. Imaging of geophysical processes through simulation inversion,
+1. Solving transport along fracture networks during fracture
+propagation, and
+1. Developing new multiscale techniques for watershed-scale problems.
+
+<!-- exploring the expansion of scientific simulation function representations into the  -->
+
+<!-- This route has also led me  -->
+
+<!-- Machine discovery of new material behavior laws and new numerical methods. -->
+
+<!-- Accelerating training of deep models by altering function representations -->
+
+
+
+<!-- 3. data-driven fracture modeling -->
+
+
+<!-- I've spent my entire career developing more and more intricate physics -->
+<!-- simulations, and I've been thinking about what to do with these -->
+<!-- simulations.  -->
+
+<!-- I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present work is focused on developing computational methods for: -->
+
+
+
+<!--
+Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.-->
+
+<!-- In my tool-sharpening efforts, I design meta-programming packages for
 scientific computing to use in my everyday work for techniques such as
 automatic differentiation and basis function
-generation. [Cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
+generation. -->
+
+[Cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
 of this work.
 
 You can find different things I work on around the internet:  
 [researchgate](https://www.researchgate.net/profile/Alejandro_Queiruga)  
-[google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao)  
-[<i class="fa fa-bitbucket"></i> afqueiruga](https://bitbucket.org/afqueiruga/) Research codes  
+[google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao)
 [<i class="fa fa-github"></i > afqueiruga](https://github.com/afqueiruga) Research codes  
+[<i class="fa fa-bitbucket"></i> afqueiruga](https://bitbucket.org/afqueiruga/) Research codes  
 [<i class="fa fa-github"></i > drgobble](https://github.com/drgobble) Hobby codes  
 [<i class="fa fa-reddit"></i > drgobble](https://www.reddit.com/user/drgobble/submitted/) Keyboard builds  
 [<i class="fa fa-instagram"></i > alfrqu](https://www.instagram.com/alfrqu/) Art

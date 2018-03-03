@@ -8,6 +8,9 @@ permalink: /cv/
 
 - Solution of nonlinear multiphysics, multiphase, multicomponent 
   problems.
+- Automated solution of equations; design of programming 
+  languages and library packages for specification, 
+  differentiation, and parallelization of scientific codes.
 - Numerical methods for discontinuous problems, such as fracture, 
   impact, and phase-transition.
 - Microscale and multiscale modeling for material behavior 
@@ -17,9 +20,6 @@ permalink: /cv/
 - Simulation of nonconventional energy resources: geothermal, 
   natural gas, nonconventional hydrocarbon.
 - Meshless, Discrete Element, and Particle-based methods.
-- Automated solution of equations; design of programming 
-  languages and library packages for specification, 
-  differentiation, and parallelization of scientific codes.
 - Use of exotic computing architectures for numerical simulation, 
   such as GPUs and FPGAs.
 
@@ -73,16 +73,14 @@ Carnegie Mellon University:
 
 # Professional Experience
 
-2015-Present **Post-doctoral Researcher in Earth and Environmental 
-Sciences Area**  
+2018-Present **Project Scientist in Earth and Environmental 
+Sciences**  
+2015-2018 **Post-doctoral Researcher**  
 Lawrence Berkeley National Laboratory
 
 May-Oct. 2015 **Post-doctoral Researcher in Computational Materials 
 Research Lab**  
-University of California, Berkeley
-
-2011--2015 **Graduate Researcher in Computational Materials 
-Research Lab**  
+2011--2015 **Graduate Researcher**  
 University of California, Berkeley
 
 May-Aug. 2014 **U.S. Army Contractor at Adelphi Laboratory Center**  
@@ -113,6 +111,7 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 # Reviewing
 
+- Computer Methods in Applied Mechanics and Engineering
 - Computational Mechanics
 - Computational Particle Mechanics
 - Society of Petroleum Engineers Journal
@@ -123,6 +122,12 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 # Pipeline
 
+- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates", under review in Marine and Petroleum Geology.
+- **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, “ Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling”,
+  under review in Marine and Petroleum Geology.
+- Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, “ Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results”, under review
+in Marine and Petroleum Geology.
+<!--
 - **Queiruga, A. F.** and S. Pride. "Simulation of Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
   Rocks," In preparation for submission to Geophysical 
@@ -132,22 +137,7 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
   Systems Under Finite Deformations”, In preparation for 
   submission to the International Journal of Solids and 
   Structures.
-- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “The T+H+M 
-  Code for the Analysis of Coupled Flow, Thermal, Chemical, and 
-  Geomechanical Processes in Hydrate-Bearing Geologic Media, Part 
-  1: Multiphase Flow Formulation”, In preparation for submission 
-  to Computers & Geosciences.
-- **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, “The T+H+M 
-  Code for the Analysis of Coupled Flow, Thermal, Chemical, and 
-  Geomechanical Processes in Hydrate-Bearing Geologic Media, Part 
-  2: Numerical and Geomechanical Formulation”, In preparation for 
-  submission to Computers & Geosciences.
-- Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, “The T+H+M 
-  Code for the Analysis of Coupled Flow, Thermal, Chemical, and 
-  Geomechanical Processes in Hydrate-Bearing Geologic Media, Part 
-  3: Application to Large-scale Hydrate Production Analysis”, In 
-  preparation for submission to Computers & Geosciences.
-
+-->
 # Publications
 
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 

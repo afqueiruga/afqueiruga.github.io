@@ -103,8 +103,7 @@ ordering of the hypervertices inside the hyperedge that corresponds to one kerne
 From left to right, top to bottom, these are
 
 - For state-based peridynamics: A point with vertex id $P_0$ surrounded by points with ids $P_1$ to $P_n$,
-connected with bonds
-who themselves have vertex ids $B_1$ to $B_n$;
+connected with bonds who themselves have vertex ids $B_1$ to $B_n$;
 - For Darcy flow with FEM: A simple four-node quad whose nodes are vertices $Q_0$ to $Q_3$;
 - For fracture-matrix leakage connected a four node quad with a line segment: The four-node quad ($Q_0$ to $Q_3$) PLUS
 a two-node line, $B_0$ and $B_1$;
