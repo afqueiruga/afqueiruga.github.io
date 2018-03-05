@@ -120,4 +120,26 @@ step = pyrk.exRK.exRK(DeltaT, pyrk.exRK.exRK_table['RK4'], [rkf_p, rkf_v] )
 Setting the `maxnewt` field to one tells the stepper class that the
 pressure step is linear; it assumes everything is nonlinear.
 
+The full implementation is located at
+[https://github.com/afqueiruga/chorin_rk](https://github.com/afqueiruga/chorin_rk). It
+requires
+[afqsrungekutta](https://github.com/afqueiruga/afqsrungekutta) and [afqsfenicsutil](https://github.com/afqueiruga/afqsfenicsutil) in the `$pythonpath`. 
+
 ## Order of accuracy
+
+We use the lid driven cavity as a standard test problem.
+There are no analytical solutions, but it's been studied to death as a
+benchmark because predictable vortices arise.
+Reference solutions can be found in
+["Numerical Simulation in Fluid Dynamics" by Griebel,  Dornsheifer, and Neunhoeffer](https://www.amazon.com/Numerical-Simulation-Fluid-Dynamics-Introduction/dp/0898713986).
+Let $w$ and $h$ denote the domain size, which are both set to 1.
+A steady state solution we computed using RK4 with $Re=1/100$ is
+below:
+
+
+
+
+To determine converge accuracy, the pressure and velocity fields are
+probed at $(0,h/4)$ where the origin is the center of the cavity.
+We already know that Taylor-Hood elements work, so we only use one
+$40\times40$ mesh for the study and only vary the time step.
