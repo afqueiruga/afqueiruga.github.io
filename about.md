@@ -50,17 +50,16 @@ propagation, and
 <!--
 Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.-->
 
-<!-- In my tool-sharpening efforts, I design meta-programming packages for
+In my tool-sharpening efforts, I design meta-programming packages for
 scientific computing to use in my everyday work for techniques such as
 automatic differentiation and basis function
-generation. -->
-
+generation.
 [Cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
 of this work.
 
 You can find different things I work on around the internet:  
 [researchgate](https://www.researchgate.net/profile/Alejandro_Queiruga)  
-[google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao)
+[google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao)  
 [<i class="fa fa-github"></i > afqueiruga](https://github.com/afqueiruga) Research codes  
 [<i class="fa fa-bitbucket"></i> afqueiruga](https://bitbucket.org/afqueiruga/) Research codes  
 [<i class="fa fa-github"></i > drgobble](https://github.com/drgobble) Hobby codes  

@@ -127,6 +127,7 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
   under review in Marine and Petroleum Geology.
 - Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, “ Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results”, under review
 in Marine and Petroleum Geology.
+
 <!--
 - **Queiruga, A. F.** and S. Pride. "Simulation of Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
@@ -137,7 +138,8 @@ in Marine and Petroleum Geology.
   Systems Under Finite Deformations”, In preparation for 
   submission to the International Journal of Solids and 
   Structures.
--->
+  -->
+  
 # Publications
 
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
