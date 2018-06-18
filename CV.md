@@ -157,7 +157,7 @@ in Transport in Porous Media.
 1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension," 18th U.S. National Congress for
-   Theoretical and Applied Mechanic, June 2018.
+   Theoretical and Applied Mechanics, Rosemont, Illinois, June 2018.
 1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
   Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
