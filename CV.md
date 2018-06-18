@@ -99,10 +99,6 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
-May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
-
-
-
 # Professional Affiliations
 
 - Society for Industrial and Applied Mathematics
@@ -122,24 +118,15 @@ May-Aug. 2005--2008 **Dwight Englewood Summer School, Englewood, NJ**
 
 # Pipeline
 
-- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates", under review in Marine and Petroleum Geology.
-- **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, “ Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling”,
-  under review in Marine and Petroleum Geology.
-- Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, “ Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results”, under review
-in Marine and Petroleum Geology.
+- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates," under review in Marine and Petroleum Geology.
+- **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"
+under review in Transport in Porous Media.
+- Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results," under review
+in Transport in Porous Media.
+- Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
+- Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim, "System Response to Gas Production from a Heterogeneous Hydrate Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean East Sea," under review in the Journal of Petroleum Science and Engineering.
+- Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, T. Collett, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", under review in Marine and Petroleum Geology.
 
-<!--
-- **Queiruga, A. F.** and S. Pride. "Simulation of Changes in 
-  Geophysical Properties Caused by Brine Injection into Porous 
-  Rocks," In preparation for submission to Geophysical 
-  Prospecting.
-- Abali, B. E. and **A. F. Queiruga**, “Electromagnetic Fields and 
-  Thermomechanical Structure Interactions for Computation of 
-  Systems Under Finite Deformations”, In preparation for 
-  submission to the International Journal of Solids and 
-  Structures.
-  -->
-  
 # Publications
 
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
@@ -170,7 +157,7 @@ in Marine and Petroleum Geology.
 1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension," 18th U.S. National Congress for
-   Theoretical and Applied Mechanic, June 2018. **(upcoming)**
+   Theoretical and Applied Mechanic, June 2018.
 1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
   Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
@@ -181,7 +168,7 @@ in Marine and Petroleum Geology.
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
   stimuli”, Offshore Technology Conference, Kuala Lumpur, 
-  Malaysia, March, 2018. **(upcoming)**
+  Malaysia, March, 2018.
 1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Analysis of 
   the flow, thermal and geomechanical behavior of offshore 
   hydrate deposits at the NGHP-02-09-A site during short- and 
