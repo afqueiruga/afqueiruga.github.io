@@ -27,3 +27,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jekyll-org', '>= 1.0.1'
 gem 'jekyll-org-mode-converter' , '>= 0.1.1'
+
+# Github recommendation
+gem 'nokogiri', '~> 1.8.2'
