@@ -153,7 +153,7 @@ in Transport in Porous Media.
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems,” World 
   Congress of Computational Mechanics, New York City, New York, 
-  July 2018. **(upcoming)**
+  July 2018.
 1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension," 18th U.S. National Congress for
