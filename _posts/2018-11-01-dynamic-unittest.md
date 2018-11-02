@@ -89,7 +89,7 @@ suite = [
 ]
 TestSuite = hgtest.make_suite(suite)
 ```
-and that's it! The user just has to define Python functions that runs their code the specified test problem and returns results, and `hgtest` takes care of the rest.
+and that's it! The user just has to define Python functions that runs their code for the specified test problem and returns its results, and `hgtest` takes care of the rest and generates a unittest framework.
 
 Each of those items in the `suite` list are complicated classes that are asynchronously scheduling a batch run of expensive simulations.
 Each class compares the user's code against a library of known oracles from analytical solutions, or reference.
