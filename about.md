@@ -26,35 +26,12 @@ I design novel numerical methods and algorithms for scientific problems involvin
 propagation, and
 1. Developing new multiscale techniques for watershed-scale problems.
 
-<!-- exploring the expansion of scientific simulation function representations into the  -->
-
-<!-- This route has also led me  -->
-
-<!-- Machine discovery of new material behavior laws and new numerical methods. -->
-
-<!-- Accelerating training of deep models by altering function representations -->
-
-
-
-<!-- 3. data-driven fracture modeling -->
-
-
-<!-- I've spent my entire career developing more and more intricate physics -->
-<!-- simulations, and I've been thinking about what to do with these -->
-<!-- simulations.  -->
-
-<!-- I design novel numerical methods and algorithms for scientific problems involving multiphysics, multiphase flows and discontinuities. My present work is focused on developing computational methods for: -->
-
-
-
-<!--
-Broadly, my research interests encompass meshless methods, Finite Element methods, microstructure-based models, discrete element models and electrodynamics.-->
 
 In my tool-sharpening efforts, I design meta-programming packages for
 scientific computing to use in my everyday work for techniques such as
 automatic differentiation and basis function
 generation.
-[Cornflakes](https://bitbucket.org/afqueiruga/cornflakes) and [popcorn](https://bitbucket.org/afqueiruga/popcorn) are the current incarnation
+[Cornflakes](https://github.com/afqueiruga/cornflakes) and [popcorn](https://github.com/afqueiruga/popcorn) are the current incarnation
 of this work.
 
 You can find different things I work on around the internet:  
