@@ -34,7 +34,7 @@ satisifies
 \end{equation}
 which comes out to
 \begin{equation}
-r=\left( \frac{R_2}{R_1} )^{1/{N-1}} \right)
+r=\left( \frac{R_2}{R_1} \right)^{1/(N-1)}
 \end{equation}
 
 ## gmsh Snippet
