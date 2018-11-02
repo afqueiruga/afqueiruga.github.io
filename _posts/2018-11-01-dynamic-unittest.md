@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Generating TestCases in Python behind a library"
-date: 2018-08-21
+title: "Generating TestCases in Python Inside of a Library"
+date: 2018-11-01
 categories: python
 ---
 
@@ -43,7 +43,7 @@ def make_testcase(suite):
 
 Simple! Pythonic! The library now has to define a method for generating the
 class methods, lest the user finds this all worthless.
-The simple toy example here lets the users provide two numbers to test if they multiply to 100:
+The toy example here lets the users provide two numbers to test if they multiply to 100:
 
 ```python
 def MyTestFunctionGenerator(a,b):
@@ -56,7 +56,7 @@ def MyTestFunctionGenerator(a,b):
 ```
 
 The above two methods can be hidden inside of a library, with a `from awesometestinglibrary import *`.
-Now the user can just instantiate a list of class methods for everything that
+The user can just instantiate a list of class methods for everything that
 needs to be tested:
 
 ```python
@@ -64,16 +64,16 @@ test_list = [
     MyTestFunctionGenerator(50,2),
     MyTestFunctionGenerator(5,20),
     MyTestFunctionGenerator(-50,-2),
-    #MyTestFunctionGenerator(10,11), # Fails intentionally
+    MyTestFunctionGenerator(10,11), # Fails intentionally
 ]
 ```
 
-Now the user calls the first library functions gets a unittest type:
+and then the user can call the first library function to get a unittest compatible class specification:
 
 ```python
 MyTestCase = make_testcase(test_list)
 ```
-Note that the return type _must_ be assigned a value, or else the unittest framework won't discover it.
+Note that the returned type object _must_ be assigned to a variable, or else the unittest framework won't discover it.
 But I think that's the only caveat to the end user!
 
 ## My Use Case
