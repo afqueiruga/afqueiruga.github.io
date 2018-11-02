@@ -53,7 +53,7 @@ Transfinite Surface {5} Alternate;
 segments 1 and 6 are the arcs.
 The arcs use a uniform progression, which means the meshed segments of 1 and 6
 will have the different lengths discussed above. The section was defined to go
-from $R_1=0.2$ to $R_2=2.5$.
+from $R_1=0.2$ to $R_2=2.5$. The base case has 17 elements along the radius and 12 elements around the arc.
 The -8 is there to flip the line so that the progression goes in the same
 direction as 7; this needs to be verified by looking at the GUI.
 
