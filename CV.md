@@ -99,6 +99,7 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
+<!--
 # Professional Affiliations
 
 - Society for Industrial and Applied Mathematics
@@ -111,6 +112,7 @@ to Finite Element Methods, University of California, Berkeley**
 - Computational Mechanics
 - Computational Particle Mechanics
 - Society of Petroleum Engineers Journal
+-->
 
 # Recognitions
 
@@ -125,10 +127,10 @@ under review in Transport in Porous Media.
 in Transport in Porous Media.
 - Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
 - Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim, "System Response to Gas Production from a Heterogeneous Hydrate Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean East Sea," under review in the Journal of Petroleum Science and Engineering.
-- Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, T. Collett, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", under review in Marine and Petroleum Geology.
 
 # Publications
 
+1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", Marine and Petroleum Geology (2018), in press.
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems." Computer 
