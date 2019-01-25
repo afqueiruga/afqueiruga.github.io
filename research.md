@@ -34,7 +34,7 @@ A woven-beam finite element simulation with multiphysics contacts is
 used to perform material property perdiction.
 
 <center><video controls preload="none"
-poster="images/V_loose.thumbnail.jpg" width="500">
+poster="none" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fibrils.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
