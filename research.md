@@ -33,8 +33,7 @@ and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes).
 A woven-beam finite element simulation with multiphysics contacts is
 used to perform material property perdiction.
 
-<center><video controls preload="none"
-poster="none" width="500">
+<center><video controls preload="none" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fibrils.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
