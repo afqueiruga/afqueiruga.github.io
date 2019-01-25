@@ -9,8 +9,8 @@ I've made for various research topics over the years.
 
 Warning: Each of the videos below is approximately 1MB.
 
-# Hydraulic Fracture Extension
 
+# Hydraulic Fracture Extension
 
 A peridynamics model is used to simulate the hydraulic fracturing process fully coupled to finite-element models of porous flow and fracture flow. The growth of the fracture is modeled by weakening and breaking bonds between peridynamic material points in response to the strain. Fluid injection drives the growth of the initial hydraulic fracture and interacting with a natural fracture to the left. Below the peridynamic points are plotted, colored by the y displacement.
 Not shown in the video are the fields for matrix-pore pressure and fracture pressure.
@@ -24,10 +24,23 @@ Your browser does not support the video tag.
 
 The video shows oscilations that form vertical stripes in the
 point coloring. This observation motivated the study published in
-["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598). 
+["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598)
+and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). 
+
+
+# Microstructure Simulation of Electronic Textiles
+
+A woven-beam finite element simulation with multiphysics contacts is
+used to perform material property perdiction.
+
+<center><video controls preload="none"
+poster="images/V_loose.thumbnail.jpg" width="500">
+<source src="https://www.ocf.berkeley.edu/~afq/media/fibrils.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></center>
+
 
 # Electronic Textiles in Ballistic Impacts
-
 
 High strength textiles are a fundamental component of armors in multiple applications, where they are coupled with metal and ceramic plates and various other systems. In this research, the effect of applying electromagnetic fields to a ballistic fabric undergoing impact is explored, wherein an external magnetic field induces deformation in an electrified sheet to influence the behavior of the projectile.
 
@@ -36,6 +49,7 @@ poster="images/V_loose.thumbnail.jpg" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/V_loose.small.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
+
 
 # Image Processing in Impact Experimentation
 
