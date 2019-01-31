@@ -9,9 +9,9 @@ I've made for various research topics over the years.
 
 Warning: Each of the videos below is approximately 1MB.
 
-# Unsupervised Phase Labeling
+# Equation of State Reparameterization with Unsupervised Phase Labeling
 
-The dataset is water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. The trained model is inserted directly into balance laws, building differential algebraic equations that can be solved easily (after using code generation and automatic differentiation.)
+An autoencoder is used to learn a new representation of complex multiphase equations of state. Below is an animation of the training process on a dataset of water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. The trained model is inserted directly into balance laws, building differential algebraic equations on the latent space that can be solved easily (after using code generation and automatic differentiation to program the solver.)
 
 <center><video controls preload="none"
 poster="images/phases.thumbnail.jpg" width="500">
@@ -21,9 +21,7 @@ Your browser does not support the video tag.
 
 # Hydraulic Fracture Extension
 
-A peridynamics model is used to simulate the hydraulic fracturing process fully coupled to finite-element models of porous flow and fracture flow. The growth of the fracture is modeled by weakening and breaking bonds between peridynamic material points in response to the strain. Fluid injection drives the growth of the initial hydraulic fracture and interacting with a natural fracture to the left. Below the peridynamic points are plotted, colored by the y displacement.
-Not shown in the video are the fields for matrix-pore pressure and fracture pressure.
-
+A peridynamics model is used to simulate the hydraulic fracturing process fully coupled to finite-element models of porous flow and fracture flow. The growth of the fracture is modeled by weakening and breaking bonds between peridynamic material points in response to the strain. Fluid injection drives the growth of the initial hydraulic fracture and interacting with a natural fracture to the left. Below the peridynamic points are plotted, colored by the y displacement, and the fields for matrix-pore pressure and fracture pressure on the left. The fracture is dynamically remeshed.
 
 <center><video controls preload="none"
 poster="images/natural_crack.thumbnail.png" width="500">
@@ -34,7 +32,7 @@ Your browser does not support the video tag.
 The video shows oscilations that form vertical stripes in the
 point coloring. This observation motivated the study published in
 ["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598)
-and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). 
+and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). A hyperparameter search on Peridynamics kernels and stabilization schemes failed to find a passing numerical method, despite producing illustrations of plausible fracture fields.
 
 
 # Microstructure Simulation of Electronic Textiles
