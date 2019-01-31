@@ -9,6 +9,15 @@ I've made for various research topics over the years.
 
 Warning: Each of the videos below is approximately 1MB.
 
+# Unsupervised Phase Labeling
+
+The dataset is water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. The trained model is inserted directly into balance laws, building differential algebraic equations that can be solved easily (after using code generation and automatic differentiation.)
+
+<center><video controls preload="none"
+poster="images/phases.thumbnail.jpg" width="500">
+<source src="https://www.ocf.berkeley.edu/~afq/media/phase_training.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></center>
 
 # Hydraulic Fracture Extension
 
@@ -17,8 +26,8 @@ Not shown in the video are the fields for matrix-pore pressure and fracture pres
 
 
 <center><video controls preload="none"
-poster="images/natural_crack_u.thumbnail.jpg" width="500">
-<source src="https://www.ocf.berkeley.edu/~afq/media/natural_crack_u.small.mp4" type="video/mp4">
+poster="images/natural_crack.jpg" width="500">
+<source src="https://www.ocf.berkeley.edu/~afq/media/fracturing.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
 
