@@ -26,7 +26,7 @@ Not shown in the video are the fields for matrix-pore pressure and fracture pres
 
 
 <center><video controls preload="none"
-poster="images/natural_crack.jpg" width="500">
+poster="images/natural_crack.thumbnail.png" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fracturing.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
