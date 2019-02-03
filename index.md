@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-
-
 <img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
 
 I am a numerical computation researcher at Lawrence Berkeley National
