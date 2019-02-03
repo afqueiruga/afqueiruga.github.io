@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 <img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
