@@ -24,7 +24,7 @@ Your browser does not support the video tag.
 A peridynamics model is used to simulate the hydraulic fracturing process fully coupled to finite-element models of porous flow and fracture flow. The growth of the fracture is modeled by weakening and breaking bonds between peridynamic material points in response to the strain. Fluid injection drives the growth of the initial hydraulic fracture and interacting with a natural fracture to the left. Below the peridynamic points are plotted, colored by the y displacement, and the fields for matrix-pore pressure and fracture pressure on the left. The fracture is dynamically remeshed.
 
 <center><video controls preload="none"
-poster="images/natural_crack.thumbnail.png" width="500">
+poster="images/natural_crack.thumbnail.png" width="700">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fracturing.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
@@ -40,7 +40,7 @@ and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). A hyperparameter sea
 A woven-beam finite element simulation with multiphysics contacts is
 used to perform material property perdiction.
 
-<center><video controls preload="none" poster="images/fibrils.thumbnail.jpg" width="500">
+<center><video controls preload="none" poster="images/fibrils.thumbnail.jpg" width="700">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fibrils.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>

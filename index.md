@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-<img align="right" src="images/mug.png" width="250" style="margin:25px 25px">
+<img align="right" src="about/images/mug.png" width="250" style="margin:25px 25px">
 
 I am a numerical computation researcher at Lawrence Berkeley National
 Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov)
