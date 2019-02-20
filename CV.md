@@ -37,12 +37,12 @@ permalink: /cv/
 - Usage of modern software development methods for code 
   management, testing and verification. Programming methodology 
   focused on developing independent, reusable packages.
-- Theoretical background in mechanics and electromagnetism. 
+- Theoretical background in mechanics, electromagnetism, multiphase transport. 
 
 #  Education
 
 2011--2015 **University of California, Berkeley**  
-**Ph.D.** in Mechanical Engineering, May 2015 (GPA: 3.84)  
+**Ph.D.** in Mechanical Engineering, May 2015
 Designated Emphasis in Computational and Data Science and Engineering  
 Dissertation: *Microscale Simulation of the Mechanical and  
 Electromagnetic Behavior of Textiles*  
@@ -52,7 +52,7 @@ Fabric Armor Colliding with a Rigid Projectile*
 
 
 2007--2011 **Carnegie Mellon University**  
-**B.Sc.** in Mechanical Engineering, May 2011 (GPA: 3.54)  
+**B.Sc.** in Mechanical Engineering, May 2011
 
 #  Selected Coursework
 
@@ -113,16 +113,14 @@ to Finite Element Methods, University of California, Berkeley**
 - Computational Particle Mechanics
 - Society of Petroleum Engineers Journal
 -->
-
+<!-- 
 # Recognitions
 
-- Society of Petroleum Engineers Journal 2017 Outstanding Technical Editor Award
+- Society of Petroleum Engineers Journal 2017 Outstanding Technical Editor Award -->
 
 # Pipeline
 
-- Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates," under review in Marine and Petroleum Geology.
-- **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"
-under review in Transport in Porous Media.
+
 - Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results," under review
 in Transport in Porous Media.
 - Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
@@ -130,24 +128,27 @@ in Transport in Porous Media.
 
 # Publications
 
-1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", Marine and Petroleum Geology (2018), in press.
+1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates," in press.
+1. **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"](https://rdcu.be/bnCEb) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01242-w](https://doi.org/10.1007/s11242-019-01242-w
+)
+1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", Marine and Petroleum Geology, 2018. [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems." Computer 
   Methods in Applied Mechanics and Engineering 322 (2017): 
-  97-122.
+  97-122. [doi: 10.1016/j.cma.2017.04.016](https://doi.org/10.1016/j.cma.2017.04.016) 
 1. **Queiruga, A. F.** and T. Zohdi, “Microscale modeling of effective 
   mechanical and electrical properties of textiles,” 
   International Journal for Numerical Methods in Engineering, 2016.
-  doi: 10.1002/nme.5268.
+  [doi: 10.1002/nme.5268](https://doi.org/10.1002/nme.5268)
 1. **Queiruga, A. F.** and T. Zohdi, “Formulation and numerical 
   analysis of a fully-coupled dynamically deforming 
   electromagnetic wire,” Computer Methods in Applied Mechanics 
-  and Engineering, vol. 305, pp. 292--315, 2016. doi: 10.1016/j.cma.2016.02.035.
+  and Engineering, vol. 305, pp. 292--315, 2016. [doi: 10.1016/j.cma.2016.02.035](https://doi.org/10.1016/j.cma.2016.02.035)
 1. Mpagazehe, J. N., **A. F. Queiruga**, and C. F. Higgs, “Towards an 
   understanding of the drilling process for fossil fuel energy: A 
   continuum-discrete approach,” Tribology International, vol. 59, 
-  pp. 273–283, 2013. doi: 10.1016/j.triboint.2012.08.001.
+  pp. 273–283, 2013. [doi: 10.1016/j.triboint.2012.08.001](https://doi.org/10.1016/j.triboint.2012.08.001)
 
 # Invited Talks
 
@@ -190,16 +191,14 @@ in Transport in Porous Media.
   AGU Fall Meeting, San Francisco, CA, December 2016.
 1. Reagan, M. T., G. J. Moridis and **A. F. Queiruga**, "B21G-0510: 
   Long-term fate of hydrate-bearing reservoirs during and after 
-  production", AGU Fall Meeting, San Francisco, CA, December 
-  2016.
+  production", AGU Fall Meeting, San Francisco, CA, December 2016.
 1. Serrano, C.; Doolittle, L. R.; Driver, D. S.; **Queiruga, A. F.**; 
   Patel, B.; Zaky, Z.; Llimona, Q., “End-to-End FEL Beam 
   Stability Simulation Engine,” Proceedings of the 7th 
   International Particle Accelerator Conference, January 2016.
 1. **Alejandro F. Queiruga**, Daniel S. Driver, Carlos Serrano, 
   Lawrence Doolittle. “New Generation of LLRF and Beam-Based 
-  Feedback Stability Models,” Low Level RF Workshop, October 
-  2013.
+  Feedback Stability Models,” Low Level RF Workshop, October 2013.
 1. **Alejandro F. Queiruga**, C. Fred Higgs III. “Optimization and 
   Parallelization in Particle Dynamics Simulation,” Carnegie 
   Mellon Meeting of the Minds, May 2010.
