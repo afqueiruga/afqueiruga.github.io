@@ -128,7 +128,9 @@ in Transport in Porous Media.
 
 # Publications
 
-1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates," in press.
+1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan,
+   ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates,"](https://rdcu.be/bpHal)
+   Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01254-6](https://doi.org/10.1007/s11242-019-01254-6)
 1. **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"](https://rdcu.be/bnCEb) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01242-w](https://doi.org/10.1007/s11242-019-01242-w
 )
 1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", Marine and Petroleum Geology, 2018. [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
