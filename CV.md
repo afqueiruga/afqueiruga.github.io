@@ -6,20 +6,18 @@ permalink: /cv/
 
 #  Research Interests
 
+- Learning an metaprograming methods for scientific and engineering computation.
 - Solution of nonlinear multiphysics, multiphase, multicomponent 
   problems.
 - Automated solution of equations; design of programming 
   languages and library packages for specification, 
   differentiation, and parallelization of scientific codes.
-- Numerical methods for discontinuous problems, such as fracture, 
-  impact, and phase-transition.
 - Microscale and multiscale modeling for material behavior 
   prediction.
 - Electrodynamics of material continua, electromagnetic structure 
   interaction.
-- Simulation of nonconventional energy resources: geothermal, 
+- Simulation of energy resources: geothermal, 
   natural gas, nonconventional hydrocarbon.
-- Meshless, Discrete Element, and Particle-based methods.
 - Use of exotic computing architectures for numerical simulation, 
   such as GPUs and FPGAs.
 
@@ -120,14 +118,19 @@ to Finite Element Methods, University of California, Berkeley**
 
 # Pipeline
 
-
-- Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 3: Production Simulation Results," under review
-in Transport in Porous Media.
 - Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
-- Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim, "System Response to Gas Production from a Heterogeneous Hydrate Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean East Sea," under review in the Journal of Petroleum Science and Engineering.
 
 # Publications
 
+1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation
+   of Gas Production from Multilayered Hydrate Bearing Media with
+   Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes
+   using TOUGH+Millstone: Part 3: Production Simulation Results," in
+   press at Transport in Porous Media.
+1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim,
+   "System Response to Gas Production from a Heterogeneous Hydrate
+   Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean
+   East Sea," under press at the Journal of Petroleum Science and Engineering.
 1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan,
    ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates,"](https://rdcu.be/bpHal)
    Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01254-6](https://doi.org/10.1007/s11242-019-01254-6)
@@ -154,6 +157,15 @@ in Transport in Porous Media.
 
 # Invited Talks
 
+1. **Queiruga, A. F.**, ["Machine Determination of Better
+   Representations of Multiphase Equation of States for Subsurface
+   Flow Simulation,"](https://www.ocf.berkeley.edu/~afq/present/SantaFe2019/)
+   Machine Learning in Solid Earth Geoscience, Santa Fe, Nevada,
+   March 2019.
+1. **Queiruga, A. F.**, ["Fully Coupled Multimesh Algorithms for
+   Nonisothermal Multiphase Flow and Mechanics in Geological
+   Formations"](https://www.ocf.berkeley.edu/~afq/present/Siam2019/), SIAM Conference on Mathematical &
+   Computational Issues in Geosciences, Houston, Texas, March 2019.
 1. **Queiruga, A. F.** and G. J. Moridis, “Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems,” World 
@@ -169,6 +181,13 @@ in Transport in Porous Media.
 
 #  Conference Papers and Presentations
 
+1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis,
+   ["New Numerical Methods for Reservoir-Scale Fractured System
+   Simulations,"]((https://www.ocf.berkeley.edu/~afq/present/IPTC.tar.gz) International Petroleum Technology Conference,
+   Beijing, China, March 2019. *(originally
+   a poster: "Interdependence of Flow and Geomechanical
+   Processes During Short- and Long-Term Gas Displacement EOR Processes in Fractured Shale Oil
+   Formations")*
 1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
