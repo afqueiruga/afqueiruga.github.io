@@ -183,11 +183,11 @@ to Finite Element Methods, University of California, Berkeley**
 
 1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis,
    ["New Numerical Methods for Reservoir-Scale Fractured System
-   Simulations,"]((https://www.ocf.berkeley.edu/~afq/present/IPTC.tar.gz) International Petroleum Technology Conference,
+   Simulations,"](https://www.ocf.berkeley.edu/~afq/present/IPTC.tar.gz) International Petroleum Technology Conference,
    Beijing, China, March 2019. *(originally
    a poster: "Interdependence of Flow and Geomechanical
-   Processes During Short- and Long-Term Gas Displacement EOR Processes in Fractured Shale Oil
-   Formations")*
+   Processes During Short- and Long-Term Gas Displacement EOR
+   Processes in Fractured Shale Oil Formations")*
 1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
