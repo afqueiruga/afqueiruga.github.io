@@ -6,7 +6,7 @@ permalink: /cv/
 
 #  Research Interests
 
-- Learning an metaprograming methods for scientific and engineering computation.
+- Learning and metaprograming methods for scientific and engineering computation.
 - Solution of nonlinear multiphysics, multiphase, multicomponent 
   problems.
 - Automated solution of equations; design of programming 
@@ -14,12 +14,10 @@ permalink: /cv/
   differentiation, and parallelization of scientific codes.
 - Microscale and multiscale modeling for material behavior 
   prediction.
-- Electrodynamics of material continua, electromagnetic structure 
-  interaction.
 - Simulation of energy resources: geothermal, 
   natural gas, nonconventional hydrocarbon.
-- Use of exotic computing architectures for numerical simulation, 
-  such as GPUs and FPGAs.
+- Electrodynamics of material continua, electromagnetic structure 
+  interaction.
 
 #  Skill Set
 
@@ -36,6 +34,7 @@ permalink: /cv/
   management, testing and verification. Programming methodology 
   focused on developing independent, reusable packages.
 - Theoretical background in mechanics, electromagnetism, multiphase transport. 
+- Use of exotic computing architectures, such as GPUs and FPGAs.
 
 #  Education
 
