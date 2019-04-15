@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "pendulum_ad"
-date:
-categories: tensorflow
+date: 2019-4-15
+categories: programming
 --- 
 # Solving Physics with Automatic Differentiation
 
