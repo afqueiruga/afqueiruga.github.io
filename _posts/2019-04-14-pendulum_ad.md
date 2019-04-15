@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pendulum_ad"
+title: "Solving the Pendulum via Automatic Differentiation"
 date: 2019-4-15
 categories: programming
 --- 
