@@ -39,7 +39,7 @@ permalink: /cv/
 #  Education
 
 2011--2015 **University of California, Berkeley**  
-**Ph.D.** in Mechanical Engineering, May 2015
+**Ph.D.** in Mechanical Engineering, May 2015  
 Designated Emphasis in Computational and Data Science and Engineering  
 Dissertation: *Microscale Simulation of the Mechanical and  
 Electromagnetic Behavior of Textiles*  
