@@ -124,18 +124,21 @@ to Finite Element Methods, University of California, Berkeley**
 1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation
    of Gas Production from Multilayered Hydrate Bearing Media with
    Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes
-   using TOUGH+Millstone: Part 3: Production Simulation Results," in
-   press at Transport in Porous Media.
+   using TOUGH+Millstone: Part 3: Production Simulation Results," Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01283-1](https://doi.org/10.1007/s11242-019-01283-1)
 1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim,
    "System Response to Gas Production from a Heterogeneous Hydrate
    Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean
-   East Sea," under press at the Journal of Petroleum Science and Engineering.
+   East Sea," Journal of Petroleum Science and Engineering, 2019. [doi: 10.1016/j.petrol.2019.03.058](https://doi.org/10.1016/j.petrol.2019.03.058)
 1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan,
    ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates,"](https://rdcu.be/bpHal)
    Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01254-6](https://doi.org/10.1007/s11242-019-01254-6)
 1. **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"](https://rdcu.be/bnCEb) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01242-w](https://doi.org/10.1007/s11242-019-01242-w
 )
-1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin During a Production Test and Under Full Production", Marine and Petroleum Geology, 2018. [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
+1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and
+   R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate
+   Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin
+   During a Production Test and Under Full Production", Marine and
+   Petroleum Geology, 2018. (In Press) [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems." Computer 
@@ -200,11 +203,11 @@ to Finite Element Methods, University of California, Berkeley**
 1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “The T+H+M 
   Code for the Analysis of Coupled Flow, Thermal, Chemical and 
   Geomechanical Processes in Hydrate-Bearing Geologic Media,” 9th 
-  International Gas Hydrates Conference, Denver, CO, June, 2016. **(presenting author)**
+  International Gas Hydrates Conference, Denver, CO, June, 2017. **(presenting author)**
 1. Moridis, G. J., M. T. Reagan and **A. F. Queiruga**, Long-term 
   System Behavior Following Cessation of Gas Production from 
   Hydrate Deposits,” 9th International Gas Hydrates Conference, 
-  Denver, CO, June, 2016.
+  Denver, CO, June, 2017.
 1. **Queiruga, A. F.** and G. J. Moridis, “NG21A-1806: Numerical 
   Simulation of Hydraulic Fracture Propagation using 
   Fully-Coupled Peridynamics, Thin-Film Flow, and Darcian Flow”, 
