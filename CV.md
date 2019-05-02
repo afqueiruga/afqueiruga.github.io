@@ -183,6 +183,7 @@ to Finite Element Methods, University of California, Berkeley**
 
 #  Conference Papers and Presentations
 
+1. Moridis, G.J., Reagan, M.T., **Queiruga, A.F.**, “Gas Hydrate Production Testing: Design Process and Modeling Results,” Proc. 2019 Offshore Technology Conference, Houston, TX, 6-9 May 2019.
 1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis,
    ["New Numerical Methods for Reservoir-Scale Fractured System
    Simulations,"](https://www.ocf.berkeley.edu/~afq/present/IPTC.tar.gz) International Petroleum Technology Conference,
