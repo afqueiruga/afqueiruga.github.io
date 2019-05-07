@@ -48,7 +48,7 @@ tps://github.com/afqueiruga/AfqsJuliaUtil.jl/blob/master/AfqsJuliaUtil.jl)
 
 **In [1]:**
 
-```python
+```julia
 include("./AfqsJuliaUtil.jl")
 using .AfqsJuliaUtil
 ```
@@ -57,7 +57,7 @@ First, let's make a simple dataset with known expected values:
 
 **In [2]:**
 
-```python
+```julia
 dat_x = collect(1:0.1:10);
 dat_y = 0.1*dat_x.^2 .+ 5 .+ 0.15*rand(length(dat_x));
 dat_x = reshape(dat_x,(1,:));
@@ -75,7 +75,7 @@ is complicated for the model developer.
 
 **In [3]:**
 
-```python
+```julia
 poly = AfqsJuliaUtil.@polynomial_function(1,3)
 P0 = rand(4)
 f(x,P) = P[1:3]'*poly(x).+P[4];
@@ -90,7 +90,7 @@ P = \arg \min_P \left\| y-f(x;P)\right\|_2
 
 **In [4]:**
 
-```python
+```julia
 using Flux, Zygote, Plots
 loss(x,y, P) = Flux.mse(y,f(x,P))
 ```
@@ -106,7 +106,7 @@ We check that it works:
 
 **In [5]:**
 
-```python
+```julia
 loss(dat_x,dat_y, P0)
 ```
 
@@ -130,7 +130,7 @@ So... let's just type that!
 
 **In [6]:**
 
-```python
+```julia
 grad_fwd(x) = Zygote.forward_jacobian( (P->loss(dat_x,dat_y, P)), x )[2];
 hess_fwd(x) = Zygote.forward_jacobian( gradx_fwd, x );
 ```
@@ -143,7 +143,7 @@ something that was backward differentiated:
 
 **In [7]:**
 
-```python
+```julia
 #gradx(x) = Zygote.gradient( (P->loss(dat_x,dat_y, P)), x )[1]
 #hessx_fwd(x) = Zygote.forward_jacobian( grad, x );
 ```
@@ -152,7 +152,7 @@ To get the matrix and right-hand-side, we evaluate it:
 
 **In [8]:**
 
-```python
+```julia
 R,K=hess_fwd(P0)
 ```
 
@@ -169,7 +169,7 @@ To determine our parameters, we solve the resulting system of equations:
 
 **In [9]:**
 
-```python
+```julia
 ΔP = K\R;
 P = P0 - ΔP
 ```
@@ -190,7 +190,7 @@ right:
 
 **In [10]:**
 
-```python
+```julia
 scatter(dat_x',dat_y')
 plot!(dat_x',f(dat_x,P)')
 ```
