@@ -12,9 +12,9 @@ regression.
 Toolkits of the like of TensorFlow or Flux are useful in their ability to
 perform complex derivatives and orchestrate training algorithms on complex
 nonlinear and deep models. However, the focus nowadays is on optimizing the
-hottest neural network with minibatched stochastic gradient descent, which
-misses the rest of the field of optimization. There are plently more classes of
-models algorithmsthat this programming approach can help us perform and develop.
+hottest neural network with mini-batched stochastic gradient descent, which
+misses the rest of the field of optimization. There are plenty more classes of
+models algorithms that this programming approach can help us perform and develop.
 It's important that any automatic ML/Deep Learning package be able to derive
 these simple models. We can take the hard work out of deriving and implementing
 newer non-neural network models too.
@@ -23,7 +23,7 @@ A linear model is fit by:
 \begin{equation}
 f(x) = W basis(x) + b
 \end{equation}
-where "basis" is the The set $basis(x)=\{x\}$ is a linear model. We'll be doing
+where "basis" is the set $basis(x)=\{x\}$ is a linear model. We'll be doing
 polynomials where $basis(p)(x)=\{x,x^2,...x^p\}$. The solution is the well known
 linear least squares problem,
 \begin{equation}
@@ -206,12 +206,12 @@ plot!(dat_x',f(dat_x,P)')
 
 
 1. Assert that our deep learning tools can capture more basic methods,
-2. Easily mplement new training methods that aren't just variations on
+2. Easily implement new training methods that aren't just variations on
 stochastic gradient descent, and are possible application-specific,
 3. Implement new layers in natural, compiled code, that possibly don't have neat
 mathematical descriptions.
 
-Note how the entirity of linear regression was implemented in six lines of code,
+Note how the entirety of linear regression was implemented in six lines of code,
 without sacrificing either expressibility or performance. I didn't have to do
 anything at all by hand beyond expressing the program that implemented the
 polynomial expansion. To be fair, my basis implementation is a little out-there
