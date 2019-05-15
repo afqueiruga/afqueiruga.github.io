@@ -96,25 +96,6 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
-<!--
-# Professional Affiliations
-
-- Society for Industrial and Applied Mathematics
-- American Geophysical Union
-- Society of Petroleum Engineers
-
-# Reviewing
-
-- Computer Methods in Applied Mechanics and Engineering
-- Computational Mechanics
-- Computational Particle Mechanics
-- Society of Petroleum Engineers Journal
--->
-<!-- 
-# Recognitions
-
-- Society of Petroleum Engineers Journal 2017 Outstanding Technical Editor Award -->
-
 # Pipeline
 
 - Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
@@ -168,14 +149,14 @@ to Finite Element Methods, University of California, Berkeley**
    Nonisothermal Multiphase Flow and Mechanics in Geological
    Formations"](https://www.ocf.berkeley.edu/~afq/present/Siam2019/), SIAM Conference on Mathematical &
    Computational Issues in Geosciences, Houston, Texas, March 2019.
-1. **Queiruga, A. F.** and G. J. Moridis, “Numerical experiments on 
+1. **Queiruga, A. F.** and G. J. Moridis, [“Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
-  influence functions in two-dimensional problems,” World 
+  influence functions in two-dimensional problems,”](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/wccm_inline.html) World 
   Congress of Computational Mechanics, New York City, New York, 
   July 2018.
-1. **Queiruga, A. F.** and G. J. Moridis, “Smoothing Methods to
+1. **Queiruga, A. F.** and G. J. Moridis, [“Smoothing Methods to
    Address the Numerical Stability of Peridynamics Near the Fracture
-   Tip in Hydraulic Extension," 18th U.S. National Congress for
+   Tip in Hydraulic Extension,"](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/usnctam_inline.html) 18th U.S. National Congress for
    Theoretical and Applied Mechanics, Rosemont, Illinois, June 2018.
 1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
