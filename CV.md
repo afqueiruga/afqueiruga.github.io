@@ -50,7 +50,7 @@ Fabric Armor Colliding with a Rigid Projectile*
 
 2007--2011 **Carnegie Mellon University**  
 **B.Sc.** in Mechanical Engineering, May 2011
-
+<!--
 #  Selected Coursework
 
 University of California, Berkeley:
@@ -67,6 +67,7 @@ Carnegie Mellon University:
 - Mech. Eng. 24-492 Computational Fluid Dynamics
 - Mech. Eng. 24-681 Computer Aided Design
 - Mech. Eng. 24-623 Molecular Simulation of Materials
+-->
 
 # Professional Experience
 
@@ -172,6 +173,10 @@ to Finite Element Methods, University of California, Berkeley**
    a poster: "Interdependence of Flow and Geomechanical
    Processes During Short- and Long-Term Gas Displacement EOR
    Processes in Fractured Shale Oil Formations")*
+1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis, "A dual-mesh
+   framework for fully coupled flow and geomechanics in the
+   TOUGH+Millstone suite," 2018 TOUGH Symposium, Berkeley, CA,
+   October 2018.
 1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
