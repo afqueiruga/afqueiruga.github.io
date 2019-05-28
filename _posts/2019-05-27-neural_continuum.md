@@ -6,22 +6,28 @@ categories: machinelearning
 ---
 
 A classical neural network is just a function $f$ that takes in an array of inputs, $x_i$, and yields an output array, $y_j$. The input and output usually have different lengths, $N_x$ and $N_y$ (e.g., 784 and 10 respectively for MNIST.) It is formed of the nested discrete operations,
+
 $$
 y_j = f^{NN}(x_i)=f^D(...f^2(W^2 f^1(W^1x+b^1)+b^2)...+b^D)
 $$
+
 where $D$ is the number of layers, and $f^l$, $W^l$, and $b^l$ are activation functions, weight matrices, and bias vectors for every layer $l$. These layered operations produce a set of intermediate results known as the hidden layers. We can think of the neural network as having intermediate steps,
+
 $$
 x_i\rightarrow h^1_i \rightarrow h^2_i\rightarrow...h^D_i\rightarrow y_i
 $$
+
 where each hidden layer is the result of the operation $h^{d+1}=f^d(W^dh^d+b^d)$.
 
 I want to make this continuous. How do we describe an arbitrary functional
+
 $$
 y(\xi) = \mathcal{F}x(\xi)
 $$
+
 where the input is a function with a domain, and the output is also function? I'll do this by making analogies from the discrete operations in a multilayer perceptron to continuous operations.
 
-![continuous in, continuous out](img/in_out.png)
+![continuous in, continuous out]({{ BASE_PATH }}/assets/neural_continuum_files/in_out.png)
 
 What we will end up with is an integro-differential equation that describes a "neural continuum." The linear operations along the width of each layer will be replaced by an integral along a signal space, and the nested applications will be replaced by integrating a differential equation in a depth direction.
 
@@ -129,9 +135,11 @@ $$
 $$
 
 In the original discrete network, each layer is a discrete operation forwards. That begs us to use a Forward Euler approximation to this integral,
+
 $$
 \Delta \left. \frac{\mathrm{d}h}{\mathrm{d}\delta} \right|_\delta = f(h(\delta))-h(\delta)
 $$
+
 or,
 
 
