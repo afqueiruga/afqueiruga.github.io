@@ -194,8 +194,7 @@ $$
 
 The network $\mathcal{F}$ is defined by the selection of nonlinearity $\gamma$, 3D weight field $W(\xi,\eta,\delta)$, and 2D bias field $b(\xi,\delta$). There is no discrete choice of layer widths or network depth.
 
-<!--![neural continuum]({{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png)-->
-<img src="{{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png" width=300>
+![neural continuum]({{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png){:width=500}
 
 ## Discretization
 
