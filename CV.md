@@ -195,9 +195,9 @@ to Finite Element Methods, University of California, Berkeley**
   System Behavior Following Cessation of Gas Production from 
   Hydrate Deposits,” 9th International Gas Hydrates Conference, 
   Denver, CO, June, 2017.
-1. **Queiruga, A. F.** and G. J. Moridis, “NG21A-1806: Numerical 
+1. **Queiruga, A. F.** and G. J. Moridis, [“NG21A-1806: Numerical 
   Simulation of Hydraulic Fracture Propagation using 
-  Fully-Coupled Peridynamics, Thin-Film Flow, and Darcian Flow”, 
+  Fully-Coupled Peridynamics, Thin-Film Flow, and Darcian Flow”](/assets/source-release-cornflakes/afq_poster_AGU2016.pdf), 
   AGU Fall Meeting, San Francisco, CA, December 2016.
 1. Reagan, M. T., G. J. Moridis and **A. F. Queiruga**, "B21G-0510: 
   Long-term fate of hydrate-bearing reservoirs during and after 
