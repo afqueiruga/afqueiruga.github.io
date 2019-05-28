@@ -41,20 +41,26 @@ Instead of looking for a specific network, let's posit that we're looking for an
 
 ## Arrays to Signals
 
-The basic element of a neural network calculation is the array of activations. Let $N_w$ denote the width of this layer $d$. At each layer, there is an $N_w$ array of hidden values 
+The basic element of a neural network calculation is the array of activations. Let $N_w$ denote the width of this layer $d$. At each layer, there is an $N_w$ array of hidden values
+
 $$
 \mathbf{h}^d=\{h_1,h_2,...h_N\}
 $$
+
 In convolutional networks, sometimes these arrays are 2D, 3D, or higher carrying some sort of spatio-temporal-channel meaning. Then, $\mathbf{h}$ has multiple indices in a grid layout, which can be indexed as $h^d_{ijkc}$ for a four dimensional example with $N_x\times N_y \times N_z \times N_c$ dimension.
 
 Consider now a one dimensional function that maps from some nominal domain onto the reals
+
 $$
 h(\xi) : [-1,1]\rightarrow\mathbb{R}
 $$
+
 we can have higher dimensional input fields with higher dimensional outputs, e.g., 
+
 $$
 h(\xi,\eta,\omega):[-1,1]\times[-1,1]\times[-1,1]\rightarrow \mathbb{R}^c
 $$
+
 for a three dimensional field with $c$ channels at each point. (The domain $[-1,1]$ was an arbitrary choice, but if we picked any other domain, we'd probably end up mapping back to $[-1,1]$ for other steps later. E.g., common basis sets and Gaussian integration weights are defined on this domain.)
 
 Let us now choose to interpret our array of hidden activations as coefficients to a 
@@ -66,21 +72,29 @@ These numbers don't *necessarily* have any order applied in their meaning. For e
 ## Linear Operations to Continuous Convolutions
 
 The linear step of the perceptron is:
+
 $$
 \mathbf{y}=\mathbf{W}\mathbf{x}+\mathbf{b}
 $$
+
 The operation is expressed in summation notation explicitly by
+
 $$
 y_i = \sum_{j=1}^{N_w} W_{ij} x_j + b_i
 $$
+
 A 2D array is just one possible representation of a linear operator. As we did above, we can represent the weight matrix as a 2D function,
+
 $$
 W(\xi,\eta) = [-1,1]\times[-1,1] \rightarrow \mathbb{R}
 $$
+
 The limit of summation is integration. In conjunction with adding a 1D bias function, the analogy of the linear transform is the following integral:
+
 $$
 y(\xi)=\int_{-1}^1W^d(\xi,\eta)x(\eta)\mathrm{d}\eta+b^d(\xi)
 $$
+
 We can illustrate the analogy as so:
 ![continuous linear operation]({{ BASE_PATH }}/assets/neural_continuum_files/convolve.png)
 In the continuous analogue, every weight matrix is replaced by a 2D function that convolves in the input function into an output function. This is also a linear operator. We chose both domains to be the same for the next step.
@@ -88,47 +102,54 @@ In the continuous analogue, every weight matrix is replaced by a 2D function tha
 ## Composition to Integration
 
 The secret to neural networks is the composition of functions,
+
 $$
 y = (f^{N_d} \circ f^{N_d-1}... \circ f^2...f^1)(x),
 $$
+
 (where we've tucked the $W+b$ operations into $f$ for this section.)
 
 Let's define the analogy to a summation operator for composition,
+
 $$
 \mathop{\Large\bigcirc}_{d=1}^{N}f^{d}=f^{N}\circ f^{N-1}...\circ f^{2}\circ f^{1}
 $$
+
 where $\bigcirc$ means repeated composition over a list of unknowns. (In Flux.jl, the  `Chain` function implements $\bigcirc$.) We can then write our definition of a basic multilayer perceptron as
+
 $$
 f^{NN}=\mathop{\Large\bigcirc}_{d=1}^{N}f^{d}\circ\left(x\mapsto\mathbf{W}^dx+\mathbf{b}^d\right)
 $$
+
 where I wrote an anonymous function for the linear operator. 
 
 Just like we did with summation, I want to turn composition into a continuous operation. For that, we need to define a gradual function application. 
 
- The input and output from each of these discrete steps forms a list of functions,
+The input and output from each of these discrete steps forms a list of functions,
+
 $$
 x(\xi),\, h^1(\xi),\,h^2(\xi),\,...h^{N_d}(\xi),\,y(\xi)
 $$
+
 For the individual signal slices, we turned an array with indices $i\in[1…N_d]$ into a function $\xi^l\in[-1,1]$. Let us decide that the domains and ranges for every function in this list are the same. Let's now make a new transformation from this list of functions indexed by $d\in[1…N^d]$ to a new depth signal direction $\delta\in[0,1]$. Now we have a 2D function
+
 $$
 h(\xi,\delta):\underbrace{[-1,1]}_{\text{width}}\times\underbrace{[0,1]}_{\text{depth}}\rightarrow\mathbb{R}
 $$
- where we defined $h(\xi,0)=x(\xi)$ and $h(\xi,1)=y(\xi)$. Suppose the original layers of the discrete network be spaced out by a uniform $\Delta=1/(N_d+1)$ in this depth direction in our continuous analogue. In the discrete form of the network, the way we get from one layer indexed by $i$ to next indexed by $i+1$ is
+
+where we defined $h(\xi,0)=x(\xi)$ and $h(\xi,1)=y(\xi)$. Suppose the original layers of the discrete network be spaced out by a uniform $\Delta=1/(N_d+1)$ in this depth direction in our continuous analogue. In the discrete form of the network, the way we get from one layer indexed by $i$ to next indexed by $i+1$ is
+
 $$
 h(\delta=\Delta \times (i+1))=f^i(h(\delta=\Delta\times i))
 $$
-Between two layers, starting at $\delta=\Delta i$, the difference in $h$ is
-$$
-\begin{align}
-h(\delta+\Delta)-h(\delta) = & f(h(\delta))-h(\delta)\\
-= & \int_\delta^{\delta+\Delta} \frac{\mathrm{d} h(t)}{\mathrm{d}t}\mathrm{d}t
-\end{align}
-$$
-where $t$ is a dummy variable of integration. 
+
+Between two layers, starting at $\delta=\Delta i$, the difference in $h$ is equal to an integral between two points,
 
 $$
 h(\delta+\Delta)=h(\delta)+\int_\delta^{\delta+\Delta} \frac{\mathrm{d}h}{\mathrm{d}\delta} \mathrm{d} \delta' = f(h(\delta))
 $$
+
+where $t$ is a dummy variable of integration. Doing some rewriting,
 
 $$
 \int_\delta^{\delta+\Delta} \frac{\mathrm{d}h}{\mathrm{d}\delta} \mathrm{d} \delta' = f(h(\delta))-h(\delta)
@@ -142,7 +163,6 @@ $$
 
 or,
 
-
 $$
 \frac{\mathrm{d}h}{\mathrm{d}\delta} = \frac{f(h(\delta))-h(\delta)}{\Delta}
 $$
@@ -154,34 +174,45 @@ It is not necessary to use the original activation function $f$. We can define a
 ## The Neural Continua Integro-Differential Equation
 
 Piecing together the above continuous analogues from the individual operations in a discrete neural network, we derive the following integrodifferential equation
+
 $$
 \frac{\partial}{\partial \delta} h(\xi,\delta)= \gamma\left(\int_{-1}^1
  W(\xi,\xi',\delta)h(\xi',\delta)\mathrm{d}\xi'+b(\xi,\delta) \right)
 $$
+
 where $\gamma(x)=(f(x)-x)/\Delta$, subject to the initial condition 
+
 $$
 h(\xi,0)=x(0).
 $$
+
 After solving this equation, the output of the network is:
+
 $$
 y(\xi)=h(\xi,1)
 $$
+
 The network $\mathcal{F}$ is defined by the selection of nonlinearity $\gamma$, 3D weight field $W(\xi,\eta,\delta)$, and 2D bias field $b(\xi,\delta$). There is no discrete choice of layer widths or network depth.
 
-![neural continuum]({{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png)
+<!--![neural continuum]({{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png)-->
+<img src="{{ BASE_PATH }}/assets/neural_continuum_files/hWb_continuum2.png" width=300>
 
 ## Discretization
 
 We need to perform two discretizations to be able to solve this system: 1) signal-depth-space discretization of the fields, and 2) discretization of the integration across $\delta$ to evolve as a discrete loop.
 
 The first of these harkens back to the beginning of this discussion. We need to represent a continuous function as a set of numbers in memory on our computer. We can choose to represent functions as linear combinations of functions from discrete spaces, where we need 3D functions for $W$ to produce a discrete $\hat{W}$,
+
 $$
 \hat{W}(\xi,\eta,\delta)=\sum_i w_i \phi_i(\xi,\eta,\delta)
 $$
+
 and 3D functions for $b$ to produce a discrete $\hat{b}$,
+
 $$
 \hat{b}(\xi,\delta)=\sum_i b_i\psi(\beta,\delta)
 $$
+
 We can recover the original specification by having 3-way piecewise constant discretizations in $\xi,\eta$, and $\delta$.  We could slice in $\delta$ first, to define our layers, then pick different piecewise supports for each of these $\delta$s to have weight matrices with different dimensions. (The original discrete neural networks are just nonlinear versions of this—but let's not make this manuscript recursive!) 
 
 My intuition suggests using spectral shape functions along $\xi$ and $\xi'$, and using compact shape functions along $\delta$. I suspect orthogonality along $\xi$ might be problematic.
@@ -191,15 +222,20 @@ The integration along the depth can be handled by any ordinary differential equa
 ## Training
 
 We can define a loss function between the label signal and solution of the network by integrating over the signal,
+
 $$
 L(y,y^*)=\int_{-1}^{1}
 \left(y(\xi)-y^*(\xi)\right)^2\mathrm{d}\xi
 $$
+
 The optimization problem involves searching for *functions* $W(\xi,\eta,\delta)$ and $b(\xi,\delta)$ that minimize the integral loss,
+
 $$
 \min_{W,b} \sum_{i=1}^{N_{train}} L(y^i,\mathcal{F}x^i)
 $$
+
 After discretization, the approximate optimization problem is:
+
 $$
 \min_{\hat{W_i},\hat{b_i}} \sum_{i=1}^{N_{train}} L(y^i,\hat{\mathcal{F}}x^i)
 $$
@@ -211,10 +247,12 @@ This may seem more complicated, but inverting on the coefficients to fields in p
 Note that now we have posited a *true* problem, and an *approximate* problem. We can now argue that each time we choose a new discretization (cf. network architecture), we are looking for a better (or worse) facsimile on our computer, not a completely new entity.
 
 The discrete gives us a way to transform between one "width-depth" discretization to another by projecting between the four meshes ($\hat{W},\hat{b}\rightarrow \hat{W}',\hat{b}'$). Suppose we had trained one network $\mathcal{F}$, and decide we want more discretization in the depth or width. We can create a new mesh that's finer, and then project to the new unknowns,
+
 $$
 \min_{w'_i} \int_{0}^1\int_{-1}^1\int_{-1}^1 \left( 
 \sum_{i=1}^N\left( w_i\phi_i\right)-\sum_{i=1}^{N'}\left( w'_i\phi'_i\right) \right)^2\mathrm{d}\xi'\mathrm{d}\eta\mathrm{d}\delta
 $$
+
 This yields a linear projection operation which is common in finite element and spectral methods. 
 
 The ultimate goal is to obtain a procedure where we can:
