@@ -97,12 +97,14 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
-# Pipeline
-
-- Abali, B. E. and **A. F. Queiruga**, "Theory and computation of electromagnetic fields and thermomechanical structure interaction for systems undergoing large deformations," under review in the Journal of Computational Physics.
 
 # Publications
 
+1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
+   electromagnetic fields and thermomechanical structure interaction
+   for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) accepted in press in
+   the Journal of Computational Physics.
+   [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018)
 1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation
    of Gas Production from Multilayered Hydrate Bearing Media with
    Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes
