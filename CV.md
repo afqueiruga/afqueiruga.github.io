@@ -21,6 +21,7 @@ permalink: /cv/
 
 #  Skill Set
 
+- Software engineering for scientific and engineering applications.
 - Numerical method design and implementation for engineering and 
   physics simulations.
 - Analysis and improvement of numerical models though 
@@ -30,11 +31,14 @@ permalink: /cv/
   computation targeting both workstation and parallel 
   supercomputing environments, developing new codes and using 
   existing open-source high performance computing packages. 
-- Usage of modern software development methods for code 
-  management, testing and verification. Programming methodology 
+- Code management, testing and verification. Programming methodology 
   focused on developing independent, reusable packages.
-- Theoretical background in mechanics, electromagnetism, multiphase transport. 
 - Use of exotic computing architectures, such as GPUs and FPGAs.
+
+# Open Source Repositories
+
+- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
+- [https://github.com/afqueiruga](https://github.com/afqueiruga)
 
 #  Education
 
@@ -50,24 +54,6 @@ Fabric Armor Colliding with a Rigid Projectile*
 
 2007--2011 **Carnegie Mellon University**  
 **B.Sc.** in Mechanical Engineering, May 2011
-<!--
-#  Selected Coursework
-
-University of California, Berkeley:
-
-- Mech. Eng. 280A Introduction to the Finite Element Method
-- Mech. Eng. 280B Finite Element Methods in Non-linear Continua
-- Civil Eng. 233 Computational Mechanics
-- Math 228A and 228B Numerical Solution of Differential Equations
-- Math 221 Numerical Linear Algebra
-- Comp. Sci. 267 Applications of Parallel Computing
-
-Carnegie Mellon University:
-
-- Mech. Eng. 24-492 Computational Fluid Dynamics
-- Mech. Eng. 24-681 Computer Aided Design
-- Mech. Eng. 24-623 Molecular Simulation of Materials
--->
 
 # Professional Experience
 
@@ -227,8 +213,3 @@ to Finite Element Methods, University of California, Berkeley**
 # Notable Software
 
 - [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
-
-# Open Source Repositories
-
-- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
-- [https://github.com/afqueiruga](https://github.com/afqueiruga)
