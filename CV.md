@@ -89,7 +89,8 @@ to Finite Element Methods, University of California, Berkeley**
 1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
    electromagnetic fields and thermomechanical structure interaction
    for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) accepted in press in
-   the Journal of Computational Physics.
+   the Journal of Computational Physics.  
+[doi: 10.1016/j.jcp.2019.05.045](https://doi.org/10.1016/j.jcp.2019.05.045)  
    [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018)
 1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation
    of Gas Production from Multilayered Hydrate Bearing Media with
