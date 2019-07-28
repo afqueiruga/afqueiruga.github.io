@@ -6,39 +6,23 @@ permalink: /cv/
 
 #  Research Interests
 
-- Learning and metaprograming methods for scientific and engineering computation.
-- Solution of nonlinear multiphysics, multiphase, multicomponent 
-  problems.
-- Automated solution of equations; design of programming 
-  languages and library packages for specification, 
-  differentiation, and parallelization of scientific codes.
-- Microscale and multiscale modeling for material behavior 
-  prediction.
-- Simulation of energy resources: geothermal, 
-  natural gas, nonconventional hydrocarbon.
-- Electrodynamics of material continua, electromagnetic structure 
-  interaction.
+- Automation of equation discovery, specification, differentiation, and parallelization.
+- Machine learning, differentiable programming, and meta-programming methods.
+- Exploitation of latent spaces from unsupervised representation learning.
+- Development and design of new energy resources, including geothermal systems, nonconventional hydrocarbons, and carbon sequestration.
+- Electrodynamics and electromagnetic structure interaction.
 
 #  Skill Set
 
-- Software engineering for scientific and engineering applications.
-- Numerical method design and implementation for engineering and 
-  physics simulations.
-- Analysis and improvement of numerical models though 
-  mathematical analysis and code experimentation. Development of 
-  analytical benchmark problems for model verification.
-- Algorithmic development and programming for high performance 
-  computation targeting both workstation and parallel 
-  supercomputing environments, developing new codes and using 
-  existing open-source high performance computing packages. 
-- Code management, testing and verification. Programming methodology 
-  focused on developing independent, reusable packages.
+- Software engineering, testing, verification, and validation for scientific and engineering applications.
+- Theoretical and empirical analysis of new algorithms and computational methods.
+- Algorithmic development and programming for high performance computation.
 - Use of exotic computing architectures, such as GPUs and FPGAs.
 
 # Open Source Repositories
 
-- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
 - [https://github.com/afqueiruga](https://github.com/afqueiruga)
+- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
 
 #  Education
 
@@ -50,7 +34,6 @@ Electromagnetic Behavior of Textiles*
 **M.Sc.** in Mechanical Engineering, December 2013  
 Thesis: *A Computational Model of Electromagnetically Sensitive  
 Fabric Armor Colliding with a Rigid Projectile*
-
 
 2007--2011 **Carnegie Mellon University**  
 **B.Sc.** in Mechanical Engineering, May 2011
@@ -166,6 +149,8 @@ to Finite Element Methods, University of California, Berkeley**
    framework for fully coupled flow and geomechanics in the
    TOUGH+Millstone suite," 2018 TOUGH Symposium, Berkeley, CA,
    October 2018.
+1. Michael J. Hannon, Jr., **A.F. Queiruga**, S. Finsterle, “Enhanced flux modeling using a moving least squares interpolation basis in iTOUGH2,” 2018 TOUGH Symposium, Berkeley, CA, October 2018.
+1. George Moridis, M.T. Reagan, **A.F. Queiruga**, R. Boswell, “Coupled Flow-Geomechnical Modeling of The Oceanic Hydrate Accumulation at The NGHP-02-9 Production Test Site in the Krishna-Godawari Basin,” 2018 TOUGH Symposium, Berkeley, CA, October 2018.
 1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
   Geomechanical stability and overall system behavior of sloping 
   oceanic accumulations of hydrates responding to dissociation 
