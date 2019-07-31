@@ -4,8 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-Sometimes I make cool videos. This page is a small collection of the cooler ones
-I've made for various research topics over the years.
+Sometimes I make cool videos in my research. This page is a small collection of the cooler ones
+I've made for various research topics over the years. 
 
 Warning: Each of the videos below is approximately 1MB.
 
@@ -29,10 +29,12 @@ poster="images/natural_crack.thumbnail.png" width="700">
 Your browser does not support the video tag.
 </video></center>
 
+But remember, videos are not results! It turns out this method does not work. 
 The video shows oscilations that form vertical stripes in the
-point coloring. This observation motivated the study published in
+point coloring, which motivated the study published in
 ["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598)
-and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). A hyperparameter search on Peridynamics kernels and stabilization schemes failed to find a passing numerical method, despite producing illustrations of plausible fracture fields.
+and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). 
+A hyperparameter search on possible Peridynamics schemes failed to find a method that passed the most basic tests, despite producing plausible illustrations and videos.
 
 
 # Microstructure Simulation of Electronic Textiles
