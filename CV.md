@@ -7,7 +7,7 @@ permalink: /cv/
 #  Research Interests
 
 - Automation of equation discovery, specification, differentiation, and parallelization.
-- Machine learning, differentiable programming, and meta-programming methods.
+- Machine learning, differentiable programming, and program synthesis.
 - Exploitation of latent spaces from unsupervised representation learning.
 - Development and design of new energy resources, including geothermal systems, nonconventional hydrocarbons, and carbon sequestration.
 - Electrodynamics and electromagnetic structure interaction.
