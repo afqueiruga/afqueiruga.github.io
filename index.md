@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-<img align="right" src="about/images/mug2018.jpg" width="250" style="margin:25px 25px">
+<img align="right" src="about/images/mug2018.jpeg" width="250" style="margin:25px 25px">
 
 I'm a researcher in computational methods. I care about designing the ways we describe our problems, the tools we use to turn those descriptions into code, and the tools we use to check those programs. At Lawrence Berkeley National Laboratory working in [Earth and Environmental Sciences](https://eesa.lbl.gov), my efforts are directed towards improving how we analyze subsurface energy resources.
 
