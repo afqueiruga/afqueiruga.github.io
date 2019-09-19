@@ -11,13 +11,17 @@ Warning: Each of the videos below is approximately 1MB.
 
 # Equation of State Reparameterization with Unsupervised Phase Labeling
 
-An autoencoder is used to learn a new representation of complex multiphase equations of state. Below is an animation of the training process on a dataset of water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. The trained model is inserted directly into balance laws, building differential algebraic equations on the latent space that can be solved easily (after using code generation and automatic differentiation to program the solver.)
+An autoencoder is used to learn a new representation of complex multiphase equations of state. Below is an animation of the training process on a dataset of water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. 
 
 <center><video controls preload="none"
 poster="images/phases.thumbnail.jpg" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/phase_training.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
+
+The trained model is inserted directly into balance laws, building differential algebraic equations on the latent space that can be solved easily (with automatic differentiation.)
+
+![integrating on autoencoders](images/autoencoder_balance_detailed.png)
 
 # Hydraulic Fracture Extension
 
