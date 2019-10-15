@@ -75,10 +75,10 @@ to Finite Element Methods, University of California, Berkeley**
    the Journal of Computational Physics.  
 [doi: 10.1016/j.jcp.2019.05.045](https://doi.org/10.1016/j.jcp.2019.05.045)  
    [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018)
-1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, "Simulation
+1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, ["Simulation
    of Gas Production from Multilayered Hydrate Bearing Media with
    Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes
-   using TOUGH+Millstone: Part 3: Production Simulation Results," Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01283-1](https://doi.org/10.1007/s11242-019-01283-1)
+   using TOUGH+Millstone: Part 3: Production Simulation Results,"](https://rdcu.be/bUmXo) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01283-1](https://doi.org/10.1007/s11242-019-01283-1)
 1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and S.J. Kim,
    "System Response to Gas Production from a Heterogeneous Hydrate
    Accumulation at the UBGH2-6 Site of the Ulleung Basin in the Korean
