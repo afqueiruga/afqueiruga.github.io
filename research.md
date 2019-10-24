@@ -23,7 +23,7 @@ For the wave equation, the known continuous in time operator is,
 \end{equation}
 The evolution of the linear operator on the second order is animated below. Along the process, its used to try to solve the system.
 <center><video controls preload="none"
-poster="images/wave_animation.thumbnail.ong" width="500">
+poster="images/wave_animation.thumbnail.png" width="500">
 <source src="https://www.ocf.berkeley.edu/~afq/media/wave_animation.mp4" type="video/mp4"\
 >
 Your browser does not support the video tag.
