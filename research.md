@@ -9,6 +9,27 @@ I've made for various research topics over the years.
 
 Warning: Each of the videos below is approximately 1MB.
 
+# Interpretation of Learned of Dynamics for 
+
+Searching for a model that integrates $u^{k+1} = A u^k$ can be performed by 
+\begin{equation}
+\min_A \sum_{batch} \| \hat{u}^{k+1} - A u^{k} \|^2_F
+\end{equation}
+For the wave equation, the known continuous in time operator is,
+\begin{equation}
+\left\{\begin{array}{c}\dot{u}\\\dot{v}\end{array}\right\} = 
+\left[\begin{array}{cc} 0 & I \\ \nabla^2 & 0 \end{array} \right]
+\left\{\begin{array}{c}u\\v\end{array}\right\}
+\end{equation}
+The evolution of the linear operator on the second order is animated below. Along the process, its used to try to solve the system.
+<center><video controls preload="none"
+poster="images/phases.thumbnail.jpg" width="500">
+<source src="https://www.ocf.berkeley.edu/~afq/media/wave_learning.mp4" type="video/mp4"\
+>
+Your browser does not support the video tag.
+</video></center>
+The structure of the operator evolves as we look at the weights of $A$. The bottom left quadrant learns something like the discrete representation of the wave equation---but embedded inside of a discrete integrator. Extracting the continuous-in-time operator requires more work.
+
 # Equation of State Reparameterization with Unsupervised Phase Labeling
 
 An autoencoder is used to learn a new representation of complex multiphase equations of state. Below is an animation of the training process on a dataset of water spanning solid, liquid, gas, and the supercritical regime, without phase labels. "Phases" are learned as features that select different curve fits. 
