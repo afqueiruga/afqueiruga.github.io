@@ -17,14 +17,14 @@ Searching for a model that integrates $u^{k+1} = A u^k$ can be performed by
 \end{equation}
 For the wave equation, the known continuous in time operator is,
 \begin{equation}
-\left\{\begin{array}{c}\dot{u}\\\dot{v}\end{array}\right\} = 
-\left[\begin{array}{cc} 0 & I \\ \nabla^2 & 0 \end{array} \right]
-\left\{\begin{array}{c}u\\v\end{array}\right\}
+\left\{ \begin{array}{c} \dot{u}\\ \dot{v} \end{array} \right\} = 
+\left[ \begin{array}{cc} 0 & I \\ \nabla^2 & 0 \end{array} \right]
+\left\{ \begin{array}{c}u\\v\end{array} \right\}
 \end{equation}
 The evolution of the linear operator on the second order is animated below. Along the process, its used to try to solve the system.
 <center><video controls preload="none"
-poster="images/phases.thumbnail.jpg" width="500">
-<source src="https://www.ocf.berkeley.edu/~afq/media/wave_learning.mp4" type="video/mp4"\
+poster="images/wave_animation.thumbnail.ong" width="500">
+<source src="https://www.ocf.berkeley.edu/~afq/media/wave_animation.mp4" type="video/mp4"\
 >
 Your browser does not support the video tag.
 </video></center>
