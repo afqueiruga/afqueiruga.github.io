@@ -19,4 +19,4 @@ You can find different things I work on around the internet:
 [<i class="fa fa-bitbucket"></i> afqueiruga](https://bitbucket.org/afqueiruga/) Research codes  
 [<i class="fa fa-reddit"></i > drgobble](https://www.reddit.com/user/drgobble/submitted/) Keyboard build logs  
 [<i class="fa fa-github"></i > drgobble](https://github.com/drgobble) Hobby codes about keyboards  
-[<i class="fa fa-instagram"></i > alfrqu](https://www.instagram.com/alfrqu/) Art; figures, origami, and portraits of strangers.
+[<i class="fa fa-instagram"></i > goblinfightsraccoon](https://www.instagram.com/goblinfightsraccoon) Art; figures, origami, and portraits of strangers.
