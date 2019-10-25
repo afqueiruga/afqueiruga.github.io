@@ -15,11 +15,11 @@ Searching for a model that integrates $u^{k+1} = A u^k$ from snapshots can be pe
 \begin{equation}
 \min_A \sum_{batch} \| \hat{u}^{k+1} - A u^{k} \|^2_F
 \end{equation}
-For the wave equation, the known continuous in time operator is,
+For the wave equation, the known continuous in time and space operator is,
 \begin{equation}
 \left( \begin{array}{c} \dot{u}\\\\ \dot{v} \end{array} \right) = \left[ \begin{array}{cc} 0 & I \\\\ \nabla^2 & 0 \end{array} \right] \left( \begin{array}{c}u\\\\ v\end{array} \right)
 \end{equation}
-The evolution of the linear operator on the second order is animated below. Along the process, its used to try to solve the system.
+The evolution of the discrete linear operator on the second order system is animated below. The intermediate models are used to try to solve the system as it trains.
 <center><video controls preload="none"
 poster="images/wave_animation.thumbnail.png">
 <source src="https://www.ocf.berkeley.edu/~afq/media/wave_animation.mp4" type="video/mp4">
@@ -52,7 +52,7 @@ Your browser does not support the video tag.
 </video></center>
 
 But remember, videos are not results! It turns out this method does not work. 
-The video shows oscilations that form vertical stripes in the
+The video shows oscillations that form vertical stripes in the
 point coloring, which motivated the study published in
 ["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598)
 and [PeriFlakes](https://github.com/afqueiruga/PeriFlakes). 
@@ -62,7 +62,7 @@ A hyperparameter search on possible Peridynamics schemes failed to find a method
 # Microstructure Simulation of Electronic Textiles
 
 A woven-beam finite element simulation with multiphysics contacts is
-used to perform material property perdiction.
+used to perform material property prediction.
 
 <center><video controls preload="none" poster="images/fibrils.thumbnail.jpg" width="700">
 <source src="https://www.ocf.berkeley.edu/~afq/media/fibrils.mp4" type="video/mp4">
