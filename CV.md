@@ -40,20 +40,20 @@ Fabric Armor Colliding with a Rigid Projectile*
 
 # Professional Experience
 
-2018-Present **Project Scientist in Earth and Environmental 
+Feb 2018 -- Dec 2019 **Project Scientist in Earth and Environmental 
 Sciences**  
-2015-2018 **Post-doctoral Researcher**  
+Oct 2015 -- Feb 2018 **Post-doctoral Researcher**  
 Lawrence Berkeley National Laboratory
 
-May-Oct. 2015 **Post-doctoral Researcher in Computational Materials 
+May--Oct 2015 **Post-doctoral Researcher in Computational Materials 
 Research Lab**  
 2011--2015 **Graduate Researcher**  
 University of California, Berkeley
 
-May-Aug. 2014 **U.S. Army Contractor at Adelphi Laboratory Center**  
+May--Aug 2014 **U.S. Army Contractor at Adelphi Laboratory Center**  
 Army Research Lab, Adelphi, MD
 
-May-Aug. 2013 **Graduate Researcher in Advanced Technologies Group 
+May--Aug 2013 **Graduate Researcher in Advanced Technologies Group 
 of Engineering Division**  
 Lawrence Berkeley National Laboratory
 
