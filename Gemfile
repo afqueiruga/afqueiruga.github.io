@@ -29,4 +29,4 @@ gem 'jekyll-org', '>= 1.0.1'
 gem 'jekyll-org-mode-converter' , '>= 0.1.1'
 
 # Github recommendation
-gem 'nokogiri', '~> 1.8.2'
+gem 'nokogiri', '>= 1.10.2'
