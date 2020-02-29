@@ -30,3 +30,4 @@ gem 'jekyll-org-mode-converter' , '>= 0.1.1'
 
 # Github recommendation
 gem 'nokogiri', '>= 1.10.2'
+gem "rubyzip", ">= 1.3.0"
