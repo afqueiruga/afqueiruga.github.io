@@ -41,6 +41,15 @@ The trained model is inserted directly into balance laws, building differential 
 
 ![integrating on autoencoders](images/autoencoder_balance_detailed.png)
 
+# Electromechanical Devices
+
+<center><video controls preload="none" poster="images/piezofan.thumbnail.jpg" width="700">
+<source src="https://movies/piezofan.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></center>
+
+This example is a microelectromechanical "fan" actuated by a piezoelectric element on the rightside. The mechanical deformation is solved only in the body, and the electromagnetic fields are solved everywhere. The mesh in the surrounding vacuum is moved to accomodate the large deformations of the fan. The theory and algorithms for this simulation was published in [Abali and Queiruga, 2018](https://doi.org/10.1016/j.jcp.2019.05.045) and [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018).
+
 # Hydraulic Fracture Extension
 
 A peridynamics model is used to simulate the hydraulic fracturing process fully coupled to finite-element models of porous flow and fracture flow. The growth of the fracture is modeled by weakening and breaking bonds between peridynamic material points in response to the strain. Fluid injection drives the growth of the initial hydraulic fracture and interacting with a natural fracture to the left. Below the peridynamic points are plotted, colored by the y displacement, and the fields for matrix-pore pressure and fracture pressure on the left. The fracture is dynamically remeshed.
@@ -51,7 +60,7 @@ poster="images/natural_crack.thumbnail.png" width="700">
 Your browser does not support the video tag.
 </video></center>
 
-But remember, videos are not results! It turns out this method does not work. 
+**But remember, videos are not results!** Even though it looks cool, it turns out this method for solving mechanics does not work. 
 The video shows oscillations that form vertical stripes in the
 point coloring, which motivated the study published in
 ["Numerical experiments on the convergence properties of state-based peridynamic laws and influence functions in two-dimensional problems"](http://www.sciencedirect.com/science/article/pii/S0045782516311598)
