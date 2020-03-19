@@ -41,7 +41,7 @@ The trained model is inserted directly into balance laws, building differential 
 
 ![integrating on autoencoders](images/autoencoder_balance_detailed.png)
 
-# Electromechanical Devices
+# Large Deformation in Electromechanical Devices
 
 <center><video controls preload="none" poster="images/piezofan.thumbnail.jpg" width="700">
 <source src="movies/piezofan.mp4" type="video/mp4">
