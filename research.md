@@ -44,7 +44,7 @@ The trained model is inserted directly into balance laws, building differential 
 # Electromechanical Devices
 
 <center><video controls preload="none" poster="images/piezofan.thumbnail.jpg" width="700">
-<source src="https://movies/piezofan.mp4" type="video/mp4">
+<source src="movies/piezofan.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video></center>
 
