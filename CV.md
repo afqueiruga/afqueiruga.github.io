@@ -4,25 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-#  Research Interests
-
-- Automation of equation discovery, specification, differentiation, and parallelization.
-- Machine learning, differentiable programming, and program synthesis.
-- Exploitation of latent spaces from unsupervised representation learning.
-- Development and design of new energy resources, including geothermal systems, nonconventional hydrocarbons, and carbon sequestration.
-- Electrodynamics and electromagnetic structure interaction.
-
-#  Skill Set
-
-- Software engineering, testing, verification, and validation for scientific and engineering applications.
-- Theoretical and empirical analysis of new algorithms and computational methods.
-- Algorithmic development and programming for high performance computation.
-- Use of exotic computing architectures, such as GPUs and FPGAs.
-
-# Open Source Repositories
-
-- [https://github.com/afqueiruga](https://github.com/afqueiruga)
-- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
 
 #  Education
 
@@ -39,6 +20,9 @@ Fabric Armor Colliding with a Rigid Projectile*
 **B.Sc.** in Mechanical Engineering, May 2011
 
 # Professional Experience
+
+Doc 2019 -- Present **Software Engineer**
+Google, LLC
 
 Feb 2018 -- Dec 2019 **Project Scientist in Earth and Environmental 
 Sciences**  
@@ -66,13 +50,17 @@ Carnegie Mellon University
 Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
 to Finite Element Methods, University of California, Berkeley**
 
+# Open Source Repositories
+
+- [https://github.com/afqueiruga](https://github.com/afqueiruga)
+- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
 
 # Publications
 
+1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**, 2020. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."] Marine and Petroleum Geology, p.104566. [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
 1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
    electromagnetic fields and thermomechanical structure interaction
-   for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) accepted in press in
-   the Journal of Computational Physics.  
+   for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) Journal of Computational Physics. 
 [doi: 10.1016/j.jcp.2019.05.045](https://doi.org/10.1016/j.jcp.2019.05.045)  
    [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018)
 1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, ["Simulation
@@ -86,8 +74,7 @@ to Finite Element Methods, University of California, Berkeley**
 1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan,
    ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 1: Numerical Modeling of Hydrates,"](https://rdcu.be/bpHal)
    Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01254-6](https://doi.org/10.1007/s11242-019-01254-6)
-1. **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"](https://rdcu.be/bnCEb) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01242-w](https://doi.org/10.1007/s11242-019-01242-w
-)
+1. **Queiruga, A. F.**, G. J. Moridis, and M. T. Reagan, ["Simulation of Gas Production from Multilayered Hydrate Bearing Media with Fully Coupled Flow, Thermal, Chemical and Geomechanical Processes using TOUGH+Millstone: Part 2: Geomechanical Formulation and Numerical Coupling,"](https://rdcu.be/bnCEb) Transport in Porous Media, 2019. [doi: 10.1007/s11242-019-01242-w](https://doi.org/10.1007/s11242-019-01242-w)
 1. Reagan, M. T., G. J. Moridis, **A. F. Queiruga**, and
    R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate
    Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin
@@ -111,8 +98,20 @@ to Finite Element Methods, University of California, Berkeley**
   continuum-discrete approach,” Tribology International, vol. 59, 
   pp. 273–283, 2013. [doi: 10.1016/j.triboint.2012.08.001](https://doi.org/10.1016/j.triboint.2012.08.001)
 
+# Preprints
+
+- **Queiruga,** Alejandro F., N. Benjamin Erichson, Dane Taylor, and Michael W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
+- Erichson NB, Azencot O, **Queiruga A**, Mahoney MW. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) arXiv preprint arXiv:2006.12070. 2020 Jun 22.
+
+# Non-refereed works
+
+- J. Newman, B. Cariste, **A. Queiruga**, I. Davis, B. Plotnick, M. 
+  Gordon, and S. San Martín, “Thermoacoustic refrigeration,” GSET 
+  Res. J., pp. 1–9, 2006.
+
 # Invited Talks
 
+1. **Queiruga, A.F.** ["Continuous-in-Depth Neural Networks through Interpretation of Learned Dynamics"](https://www.youtube.com/watch?v=_aX3T1Smg54) 1st Workshop on Scientific-Driven Deep Learning (SciDL), July 1 2020.
 1. **Queiruga, A. F.**, ["Machine Determination of Better
    Representations of Multiphase Equation of States for Subsurface
    Flow Simulation,"](https://www.ocf.berkeley.edu/~afq/present/SantaFe2019/)
@@ -134,68 +133,6 @@ to Finite Element Methods, University of California, Berkeley**
 1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
   Geophysical Properties Caused by Brine Injection into Porous 
   Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
-
-#  Conference Papers and Presentations
-
-1. Moridis, G.J., Reagan, M.T., **Queiruga, A.F.**, “Gas Hydrate Production Testing: Design Process and Modeling Results,” Proc. 2019 Offshore Technology Conference, Houston, TX, 6-9 May 2019.
-1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis,
-   ["New Numerical Methods for Reservoir-Scale Fractured System
-   Simulations,"](https://www.ocf.berkeley.edu/~afq/present/IPTC.tar.gz) International Petroleum Technology Conference,
-   Beijing, China, March 2019. *(originally
-   a poster: "Interdependence of Flow and Geomechanical
-   Processes During Short- and Long-Term Gas Displacement EOR
-   Processes in Fractured Shale Oil Formations")*
-1. **A. F. Queiruga**, M. T. Reagan, and G. J. Moridis, "A dual-mesh
-   framework for fully coupled flow and geomechanics in the
-   TOUGH+Millstone suite," 2018 TOUGH Symposium, Berkeley, CA,
-   October 2018.
-1. Michael J. Hannon, Jr., **A.F. Queiruga**, S. Finsterle, “Enhanced flux modeling using a moving least squares interpolation basis in iTOUGH2,” 2018 TOUGH Symposium, Berkeley, CA, October 2018.
-1. George Moridis, M.T. Reagan, **A.F. Queiruga**, R. Boswell, “Coupled Flow-Geomechnical Modeling of The Oceanic Hydrate Accumulation at The NGHP-02-9 Production Test Site in the Krishna-Godawari Basin,” 2018 TOUGH Symposium, Berkeley, CA, October 2018.
-1. Moridis, G. J., M. T. Reagan, and **A. F. Queiruga**, “
-  Geomechanical stability and overall system behavior of sloping 
-  oceanic accumulations of hydrates responding to dissociation 
-  stimuli”, Offshore Technology Conference, Kuala Lumpur, 
-  Malaysia, March, 2018.
-1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “Analysis of 
-  the flow, thermal and geomechanical behavior of offshore 
-  hydrate deposits at the NGHP-02-09-A site during short- and 
-  long-term gas production scenarios,” AGU Fall Meeting, New 
-  Orleans, LA, December 2017.  **(presenting author)**
-1. Moridis, G. J., **A. F. Queiruga**, and M. T. Reagan, “The T+H+M 
-  Code for the Analysis of Coupled Flow, Thermal, Chemical and 
-  Geomechanical Processes in Hydrate-Bearing Geologic Media,” 9th 
-  International Gas Hydrates Conference, Denver, CO, June, 2017. **(presenting author)**
-1. Moridis, G. J., M. T. Reagan and **A. F. Queiruga**, Long-term 
-  System Behavior Following Cessation of Gas Production from 
-  Hydrate Deposits,” 9th International Gas Hydrates Conference, 
-  Denver, CO, June, 2017.
-1. **Queiruga, A. F.** and G. J. Moridis, [“NG21A-1806: Numerical 
-  Simulation of Hydraulic Fracture Propagation using 
-  Fully-Coupled Peridynamics, Thin-Film Flow, and Darcian Flow”](/assets/source-release-cornflakes/afq_poster_AGU2016.pdf), 
-  AGU Fall Meeting, San Francisco, CA, December 2016.
-1. Reagan, M. T., G. J. Moridis and **A. F. Queiruga**, "B21G-0510: 
-  Long-term fate of hydrate-bearing reservoirs during and after 
-  production", AGU Fall Meeting, San Francisco, CA, December 2016.
-1. Serrano, C.; Doolittle, L. R.; Driver, D. S.; **Queiruga, A. F.**; 
-  Patel, B.; Zaky, Z.; Llimona, Q., “End-to-End FEL Beam 
-  Stability Simulation Engine,” Proceedings of the 7th 
-  International Particle Accelerator Conference, January 2016.
-1. **Alejandro F. Queiruga**, Daniel S. Driver, Carlos Serrano, 
-  Lawrence Doolittle. “New Generation of LLRF and Beam-Based 
-  Feedback Stability Models,” Low Level RF Workshop, October 2013.
-1. **Alejandro F. Queiruga**, C. Fred Higgs III. “Optimization and 
-  Parallelization in Particle Dynamics Simulation,” Carnegie 
-  Mellon Meeting of the Minds, May 2010.
-1. **Alejandro F. Queiruga**, C. Fred Higgs III. “Parallelization in 
-  Granular Flow Research,” Carnegie Mellon Meeting of the Minds, 
-  May 2009.
-
-# Non-refereed works
-
-- J. Newman, B. Cariste, **A. Queiruga**, I. Davis, B. Plotnick, M. 
-  Gordon, and S. San Martín, “Thermoacoustic refrigeration,” GSET 
-  Res. J., pp. 1–9, 2006.
-
 # Notable Software
 
 - [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
