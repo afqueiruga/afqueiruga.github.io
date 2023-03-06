@@ -21,39 +21,40 @@ Fabric Armor Colliding with a Rigid Projectile*
 
 # Professional Experience
 
-Doc 2019 -- Present **Software Engineer**
+Dec 2019 -- Present **Senior Software Engineer** in Discover Feed Ads  
 Google, LLC
 
-Feb 2018 -- Dec 2019 **Project Scientist in Earth and Environmental 
-Sciences**  
+Feb 2018 -- Dec 2019 **Project Scientist** in Earth and Environmental 
+Sciences  
 Oct 2015 -- Feb 2018 **Post-doctoral Researcher**  
 Lawrence Berkeley National Laboratory
 
-May--Oct 2015 **Post-doctoral Researcher in Computational Materials 
-Research Lab**  
+May--Oct 2015 **Post-doctoral Researcher** in Computational Materials 
+Research Lab  
 2011--2015 **Graduate Researcher**  
 University of California, Berkeley
 
-May--Aug 2014 **U.S. Army Contractor at Adelphi Laboratory Center**  
+May--Aug 2014 **U.S. Army Contractor** at Adelphi Laboratory Center  
 Army Research Lab, Adelphi, MD
 
-May--Aug 2013 **Graduate Researcher in Advanced Technologies Group 
-of Engineering Division**  
+May--Aug 2013 **Graduate Researcher** in Advanced Technologies Group 
+of Engineering Division  
 Lawrence Berkeley National Laboratory
 
-2008--2011 **Undergraduate Researcher in Particle Flow and 
-Tribology Lab**  
+2008--2011 **Undergraduate Researcher** in Particle Flow and 
+Tribology Lab  
 Carnegie Mellon University
-
-#  Teaching
-
-Fall 2012, 2014 **Graduate Student Instructor: ME280A Introduction 
-to Finite Element Methods, University of California, Berkeley**
 
 # Open Source Repositories
 
 - [https://github.com/afqueiruga](https://github.com/afqueiruga)
 - [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
+
+# Conference Papers
+
+1. **Queiruga, A.,** N. B. Erichson, L. Hodgkinson, and M. W. Mahoney. ["Stateful ode-nets using basis function expansions."](https://arxiv.org/abs/2106.10820) Advances in Neural Information Processing Systems 34 (2021): 21770-21781.
+2. Erichson, N. B., Azencot, O., **Queiruga, A.,** Hodgkinson, L., & Mahoney, M. W. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) In International Conference on Learning Representations, 2020.
+
 
 # Publications
 
@@ -100,8 +101,8 @@ to Finite Element Methods, University of California, Berkeley**
 
 # Preprints
 
-- **Queiruga,** Alejandro F., N. Benjamin Erichson, Dane Taylor, and Michael W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
-- Erichson NB, Azencot O, **Queiruga A**, Mahoney MW. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) arXiv preprint arXiv:2006.12070. 2020 Jun 22.
+- Krishnapriyan, A. S., **A. F. Queiruga**, N. B. Erichson, and M. W. Mahoney. ["Learning continuous models for continuous physics."](https://arxiv.org/abs/2202.08494) arXiv preprint arXiv:2202.08494 (2022).
+- **Queiruga, A. F.**, N. B. Erichson, D. Taylor, and M. W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
 
 # Non-refereed works
 
@@ -130,9 +131,7 @@ to Finite Element Methods, University of California, Berkeley**
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension,"](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/usnctam_inline.html) 18th U.S. National Congress for
    Theoretical and Applied Mechanics, Rosemont, Illinois, June 2018.
-1. Pride, S., **A. F. Queiruga**, and M. Commer, “Changes in 
-  Geophysical Properties Caused by Brine Injection into Porous 
-  Rocks,” AGU Fall Meeting, New Orleans, LA, December 2017. **(presenting author)**
+
 # Notable Software
 
 - [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
