@@ -7,43 +7,46 @@ permalink: /cv/
 
 #  Education
 
-2011--2015 **University of California, Berkeley**  
-**Ph.D.** in Mechanical Engineering, May 2015  
+Aug 2011 -- May 2015 **University of California, Berkeley**  
+**Ph.D.** in Mechanical Engineering, with
 Designated Emphasis in Computational and Data Science and Engineering  
-Dissertation: *Microscale Simulation of the Mechanical and  
-Electromagnetic Behavior of Textiles*  
-**M.Sc.** in Mechanical Engineering, December 2013  
-Thesis: *A Computational Model of Electromagnetically Sensitive  
-Fabric Armor Colliding with a Rigid Projectile*
+**M.Sc.** in Mechanical Engineering (Dec 2013)  
 
-2007--2011 **Carnegie Mellon University**  
-**B.Sc.** in Mechanical Engineering, May 2011
+<!-- Dissertation: *Microscale Simulation of the Mechanical and 
+Electromagnetic Behavior of Textiles*   -->
+
+Aug 2007 -- May 2011 **Carnegie Mellon University**  
+**B.Sc.** in Mechanical Engineering
 
 # Professional Experience
 
-Dec 2019 -- Present **Senior Software Engineer** in Discover Feed Ads  
-Google, LLC
+**Google, LLC**  
+Oct 2022 -- Present **Senior Software Engineer**  
+Dec 2019 -- Oct 2022 **Software Engineer**  
+Discover Feed Ads: ML infra and quality for retrieval systems  
 
-Feb 2018 -- Dec 2019 **Project Scientist** in Earth and Environmental 
-Sciences  
+**Lawrence Berkeley National Laboratory**  
+Feb 2018 -- Dec 2019 **Project Scientist**  
 Oct 2015 -- Feb 2018 **Post-doctoral Researcher**  
-Lawrence Berkeley National Laboratory
+Earth and Environmental Sciences: analysis of theories of fracture and multiphase flow  
 
-May--Oct 2015 **Post-doctoral Researcher** in Computational Materials 
-Research Lab  
-2011--2015 **Graduate Researcher**  
-University of California, Berkeley
+**University of California, Berkeley**  
+May 2015 -- Oct 2015 **Post-doctoral Researcher**  
+Aug 2011 -- May 2015 **Graduate Researcher**  
+Computational Materials Research Lab: numerical methods for electromagnetic structure interaction  
 
-May--Aug 2014 **U.S. Army Contractor** at Adelphi Laboratory Center  
-Army Research Lab, Adelphi, MD
+**Army Research Lab**  
+May 2014 -- Aug 2014 **U.S. Army Contractor**  
+Adelphi Laboratory Center: numerical methods for electromagnetic structure interaction  
 
-May--Aug 2013 **Graduate Researcher** in Advanced Technologies Group 
-of Engineering Division  
-Lawrence Berkeley National Laboratory
+**Lawrence Berkeley National Laboratory**  
+May--Aug 2013 **Graduate Researcher**  
+Advanced Technologies Group: particle accelator control systems
 
-2008--2011 **Undergraduate Researcher** in Particle Flow and 
-Tribology Lab  
-Carnegie Mellon University
+**Carnegie Mellon University**
+2008--2011 **Undergraduate Researcher**
+Particle Flow and Tribology Lab: numerical algorithms for particle simulation    
+
 
 # Open Source Repositories
 
@@ -52,13 +55,13 @@ Carnegie Mellon University
 
 # Conference Papers
 
-1. **Queiruga, A.,** N. B. Erichson, L. Hodgkinson, and M. W. Mahoney. ["Stateful ode-nets using basis function expansions."](https://arxiv.org/abs/2106.10820) Advances in Neural Information Processing Systems 34 (2021): 21770-21781.
-2. Erichson, N. B., Azencot, O., **Queiruga, A.,** Hodgkinson, L., & Mahoney, M. W. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) In International Conference on Learning Representations, 2020.
+1. **Queiruga, A. F.,** N. B. Erichson, L. Hodgkinson, and M. W. Mahoney. ["Stateful ode-nets using basis function expansions."](https://arxiv.org/abs/2106.10820) Advances in Neural Information Processing Systems 34 (2021): 21770-21781.
+2. Erichson, N. B., Azencot, O., **Queiruga, A. F.,** Hodgkinson, L., & Mahoney, M. W. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) In International Conference on Learning Representations, 2020.
 
 
 # Publications
 
-1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**, 2020. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."] Marine and Petroleum Geology, p.104566. [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
+1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**, 2020. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."](https://doi.org/10.1016/j.marpetgeo.2020.104566) Marine and Petroleum Geology, p.104566. [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
 1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
    electromagnetic fields and thermomechanical structure interaction
    for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) Journal of Computational Physics. 
@@ -80,7 +83,7 @@ Carnegie Mellon University
    R. Boswell. "Evaluation of the Performance of the Oceanic Hydrate
    Accumulation at Site NGHP-02-09 in the Krishna-Godawari Basin
    During a Production Test and Under Full Production", Marine and
-   Petroleum Geology, 2018. (In Press) [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
+   Petroleum Geology, 2018. [doi: 10.1016/j.marpetgeo.2018.12.001](https://doi.org/10.1016/j.marpetgeo.2018.12.001)
 1. **Queiruga, A. F.** and G. J. Moridis, "Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems." Computer 
@@ -106,7 +109,7 @@ Carnegie Mellon University
 
 # Non-refereed works
 
-- J. Newman, B. Cariste, **A. Queiruga**, I. Davis, B. Plotnick, M. 
+- J. Newman, B. Cariste, **A. F. Queiruga**, I. Davis, B. Plotnick, M. 
   Gordon, and S. San Martín, “Thermoacoustic refrigeration,” GSET 
   Res. J., pp. 1–9, 2006.
 
