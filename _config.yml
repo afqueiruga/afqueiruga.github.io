@@ -2,11 +2,9 @@
 title: Alejandro F Queiruga
 email: (first name) (dot) (last name) (at) gmail (dot) com
 description: >- 
-  LaTeX files and handwritten notebooks end up in an ever growing
-  graveyard of scientific work. Now I'm just publishing all of my
-  work incrementally, like how science is supposed to work.
+  Software engineer and researcher.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://queiruga.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  afqueiruga
 bitbucket_username: afqueiruga
 
