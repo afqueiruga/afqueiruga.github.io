@@ -10,6 +10,9 @@ var video = document.getElementById("myVideo");
 video.addEventListener("ended", function() {
   video.style.display = "none";
 });
+document.addEventListener("scroll", function() {
+  video.style.display = "none";
+});
 document.addEventListener("DOMContentLoaded", function() {
   video.playbackRate = 3.0;
   video.play();
