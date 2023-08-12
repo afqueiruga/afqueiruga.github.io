@@ -23,29 +23,29 @@ Aug 2007 -- May 2011 **Carnegie Mellon University**
 **Google, LLC**  
 Oct 2022 -- Present **Senior Software Engineer**  
 Dec 2019 -- Oct 2022 **Software Engineer**  
-Discover Feed Ads: ML infra and quality for retrieval systems  
+*Discover Feed Ads*: ML infra and quality for retrieval systems  
 
 **Lawrence Berkeley National Laboratory**  
 Feb 2018 -- Dec 2019 **Project Scientist**  
 Oct 2015 -- Feb 2018 **Post-doctoral Researcher**  
-Earth and Environmental Sciences: analysis of theories of fracture and multiphase flow  
+*Earth and Environmental Sciences*: ML, code generation, and validation of subsurface transport theories and software  
 
 **University of California, Berkeley**  
 May 2015 -- Oct 2015 **Post-doctoral Researcher**  
 Aug 2011 -- May 2015 **Graduate Researcher**  
-Computational Materials Research Lab: numerical methods for electromagnetic structure interaction  
+*Computational Materials Research Lab*: numerical methods for electromagnetic structure interaction  
 
 **Army Research Lab**  
 May 2014 -- Aug 2014 **U.S. Army Contractor**  
-Adelphi Laboratory Center: numerical methods for electromagnetic structure interaction  
+*Adelphi Laboratory Center*: numerical methods for electromagnetic structure interaction  
 
 **Lawrence Berkeley National Laboratory**  
 May--Aug 2013 **Graduate Researcher**  
-Advanced Technologies Group: particle accelator control systems
+*Advanced Technologies Group*: particle accelator control systems
 
-**Carnegie Mellon University**
-2008--2011 **Undergraduate Researcher**
-Particle Flow and Tribology Lab: numerical algorithms for particle simulation    
+**Carnegie Mellon University**  
+2008--2011 **Undergraduate Researcher**  
+*Particle Flow and Tribology Lab*: numerical algorithms for particle simulation    
 
 
 # Open Source Repositories
