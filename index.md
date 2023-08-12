@@ -25,6 +25,11 @@ I'm a software engineer and researcher in computational methods.  I'm currently 
 My research interests lie in the intersection of machine learning, scientific properties, and deep learning settings. I am particularly interested in studying how machine learning can be used to learn and understand scientific properties, and how these insights can be applied to solve scientific problems and improve deep learning models.
 -->
 My research interests lie in the intersection of machine learning and scientific settings. I am particularly interested in studying and correcting failure models in applying ML to scientific problems and developing robust validation methods.
+
+The pageload animation is the Stable Diffusion inpainting process. The first frame is the initial random image, and each frame is one step of denoising towards the top-of-fold rendering. (The animation looks best on mobile.)
+
+The site icon is a heatmap of an ML weight matrix learning the 1D possion equation. You can see an explantion on my [research](research) page.
+
 <!-- 
 I research the quirks and failure modes of applying ML to scientific problems, to developing rigorous verification methods. And, applying the numerical methods to DL problems. -->
 
