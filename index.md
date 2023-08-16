@@ -31,7 +31,7 @@ My research interests lie in the intersection of machine learning and scientific
 
 The pageload animation is the Stable Diffusion inpainting process. The first frame is the initial random image, and each frame is one step of denoising towards the top-of-fold rendering. (The animation looks best on mobile.) [Inspect it here.](assets/full_screen_animation_iPhone12.mp4)
 
-The site icon is a heatmap of an ML weight matrix learning the 1D possion equation. You can see an explantion on my [research](research) page.
+The site icon is a heatmap of an ML weight matrix learning the 1D Poisson equation. You can see an explanation on my [research](research) page.
 
 <!-- 
 I research the quirks and failure modes of applying ML to scientific problems, to developing rigorous verification methods. And, applying the numerical methods to DL problems. -->

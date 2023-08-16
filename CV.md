@@ -41,7 +41,7 @@ May 2014 -- Aug 2014 **U.S. Army Contractor**
 
 **Lawrence Berkeley National Laboratory**  
 May--Aug 2013 **Graduate Researcher**  
-*Advanced Technologies Group*: particle accelator control systems
+*Advanced Technologies Group*: particle accelerator control systems
 
 **Carnegie Mellon University**  
 2008--2011 **Undergraduate Researcher**  
