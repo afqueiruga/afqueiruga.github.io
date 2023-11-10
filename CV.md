@@ -61,10 +61,11 @@ May--Aug 2013 **Graduate Researcher**
 
 # Publications
 
-1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**, 2020. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."](https://doi.org/10.1016/j.marpetgeo.2020.104566) Marine and Petroleum Geology, p.104566. [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
+1. Krishnapriyan, A. S., **A. F. Queiruga (equal contribution)**, N. B. Erichson, and M. W. Mahoney. ["Learning continuous models for continuous physics."](https://www.nature.com/articles/s42005-023-01433-4) Nature Communications Physics 6, 319 (2023). [doi: 10.1038/s42005-023-01433-4](https://doi.org/10.1038/s42005-023-01433-4) ([arxiv](https://arxiv.org/abs/2202.08494))
+1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**,. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."](https://doi.org/10.1016/j.marpetgeo.2020.104566) Marine and Petroleum Geology, p.104566. (2020) [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
 1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
    electromagnetic fields and thermomechanical structure interaction
-   for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) Journal of Computational Physics. 
+   for systems undergoing large deformations,"](https://arxiv.org/abs/1803.10551) Journal of Computational Physics, Volume 394, (2019).
 [doi: 10.1016/j.jcp.2019.05.045](https://doi.org/10.1016/j.jcp.2019.05.045)  
    [Github: https://github.com/afqueiruga/EMSI-2018](https://github.com/afqueiruga/EMSI-2018)
 1. Reagan, M. T., G. J. Moridis, and **A. F. Queiruga**, ["Simulation
@@ -102,13 +103,9 @@ May--Aug 2013 **Graduate Researcher**
   continuum-discrete approach,” Tribology International, vol. 59, 
   pp. 273–283, 2013. [doi: 10.1016/j.triboint.2012.08.001](https://doi.org/10.1016/j.triboint.2012.08.001)
 
-# Preprints
-
-- Krishnapriyan, A. S., **A. F. Queiruga**, N. B. Erichson, and M. W. Mahoney. ["Learning continuous models for continuous physics."](https://arxiv.org/abs/2202.08494) arXiv preprint arXiv:2202.08494 (2022).
-- **Queiruga, A. F.**, N. B. Erichson, D. Taylor, and M. W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
-
 # Non-refereed works
 
+- **Queiruga, A. F.**, N. B. Erichson, D. Taylor, and M. W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
 - J. Newman, B. Cariste, **A. F. Queiruga**, I. Davis, B. Plotnick, M. 
   Gordon, and S. San Martín, “Thermoacoustic refrigeration,” GSET 
   Res. J., pp. 1–9, 2006.
