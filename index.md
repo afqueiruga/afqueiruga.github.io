@@ -3,8 +3,11 @@ layout: page
 title: About
 permalink: /
 ---
-<video id="myVideo" src="assets/full_screen_animation_iPhone12.mp4"  muted autoplay playsInline style="width: 100%; position: fixed; top: 0; left: 0;">
+<video id="myVideo" muted autoplay playsInline style="width: 100%; height:100%; position: fixed; top: 0; left: 0; object-fit: fill;">
+<source src="assets/full_screen_animation_iPhone12.mp4"  type="video/mp4"  media="(max-width: 768px)" />
+<source src="assets/full_screen_animation_desktop_1280p.mp4"  type="video/mp4" />
 </video>
+
 <script>
 var video = document.getElementById("myVideo");
 video.addEventListener("ended", function() {
@@ -17,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
   video.playbackRate = 3.0;
   video.play();
 });
-</script>>
+</script>
 
 
 <img align="center" src="about/images/mug2018.jpeg" width="250" style="margin:25px 25px">
