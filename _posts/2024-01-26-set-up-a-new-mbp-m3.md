@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Set up a new Macbook Pro M3 Max for deep learning from scratch
-date: 2019-05-17
+date: 2024-01-26
 categories: machinelearning
 ---
 
