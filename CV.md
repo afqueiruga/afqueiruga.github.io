@@ -51,7 +51,7 @@ May--Aug 2013 **Graduate Researcher**
 # Open Source Repositories
 
 - [https://github.com/afqueiruga](https://github.com/afqueiruga)
-- [https://bitbucket.org/afqueiruga/](https://bitbucket.org/afqueiruga/)
+- [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
 
 # Conference Papers
 
@@ -131,7 +131,3 @@ May--Aug 2013 **Graduate Researcher**
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension,"](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/usnctam_inline.html) 18th U.S. National Congress for
    Theoretical and Applied Mechanics, Rosemont, Illinois, June 2018.
-
-# Notable Software
-
-- [https://github.com/BerkeleyLab/Global-Feedback-Simulator](https://github.com/BerkeleyLab/Global-Feedback-Simulator)
