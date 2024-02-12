@@ -73,7 +73,7 @@ pipe = StableDiffusionInpaintPipeline.from_pretrained(
     use_auth_token=True,
 ).to("mps")
 ```
-and then just apply 1 \& 2 everywhere.
+and then just apply 1 & 2 everywhere.
 
 
 ## Running LLMs
@@ -97,7 +97,6 @@ mistral:latest                	61e88e884507	4.1 GB	2 weeks ago
 mixtral:latest                	7708c059a8bb	26 GB 	2 weeks ago
 
 % du -sh .cache/huggingface/hub/*
-afq@malachi ~ % du -sh .cache/huggingface/hub/*
 2.6G	.cache/huggingface/hub/models--CompVis--stable-diffusion-v1-4
 139M	.cache/huggingface/hub/models--facebook--mms-tts-eng
 2.6G	.cache/huggingface/hub/models--runwayml--stable-diffusion-inpainting
