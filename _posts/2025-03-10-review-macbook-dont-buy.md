@@ -22,7 +22,7 @@ Last year I purchased a fully specced-out MacBook Pro M3 Max with 128GiB of RAM,
 
 After 1 year of usage, I can't recommend getting any Apple Silicon products if your goal is to do any model **training**.
 
-The problem is not the GPUs themselves. Llama.cpp and Tinygrad work fine which each have their own independent support for Metal. These two packages are the saving grace of the Apple Silicon.
+The problem is not the GPUs themselves. Llama.cpp and Tinygrad work fine because they each have their own independent support for Metal. These two packages are the saving grace of the Apple Silicon.
 
 Apple provided Metal drivers for Jax and Pytorch --- but these are far from usable. GPU support for ML is actually **in an insidious state:** Jax and Torch will *run* but there are subtle bugs. There are some assert errors and warnings on incompatibilities (for example, Jax-metal would raise an error after trying to allocate a matrix over 64KiB in size) but most of the time **the bugs are silent!**
 
@@ -30,13 +30,12 @@ This cost me a few weeks of painful debugging on a side project:  I was writing 
 1. Stable Diffusion worked with some dtypes but returns black images (no warning or error) on other dtypes. I managed to get reasonable looking outputs.
 2. Ollama works out of the box with GPU acceleration. I made a training set using self play of codenames with Ollama.
 3. I loaded the dataset of rewards into TRL, which used PyTorch under the hood.
-4. The model training would NaN!
+4. The model training would NaN after two iterations!
 
 
+I worked on debugging my loss function, trying different RL methods, and checked for bugs in my dataset. After a few weeks, I realized that the problem was the Torch drivers! I couldn't replicate the self-play within PyTorch (I was using ollama for base model rollouts.) I eventually realized that not even GPT2 count infer in Torch on GPU.
 
-I worked on debugging my loss function and tried different RL methods, checked for bugs in my dataset. After a few weeks, I realized that the problem was the Torch drivers! I couldn't replicate the self-play within Torch (I was using ollama for base model rollouts.) I eventually realized that not even GPT2 would run in Torch on GPU.
-
-> Aside: This is a pretty funny task to give to an LLM: they implicitly know the game, follow the formatting instructions, and give reasonable CoTs. But when actually playing, 50% of the time the clue is "I am on the blue team so I will give the clue "BLUE 3" so my teammates pick the words marked as belonging to the blue team". 🙄 It seemed like a fun project to try RL.
+> Aside: This is a pretty funny task to give to an LLM: they implicitly know the game, follow the formatting instructions, and give reasonable CoTs. But when actually playing, 50% of the time the clue is "I am on the blue team so I will give the clue "BLUE 3" so my teammates pick the words marked as belonging to the blue team". 🙄 It seemed like a fun project to try RL where negative rewards by self play could fix that.
 
 As of today, I continue to run into issues when I try Jax and Torch on Metal, both recently crashing on experiments with small 100-parameter NNs. I use Tinygrad for all ML projects now.
 > Review for Tinygrad: It's great!
@@ -83,11 +82,10 @@ assert gpt_model.device.type == 'mps'
 assert generated == 'The rain in Spain has been so bad that the city of Barcelona has been forced to close its doors'
  ```
 
-This test used to fail back in March 2024, where it would decode to `!!!!...`. It has since started passing for all smaller sized models.
+This test used to fail back in March 2024, where it would decode to `!!!!...` and the logits were off. This test has since started passing for all smaller sized models.
 
 But this is part of the difficulty with the system. Although those bugs have been fixed, there are still bugs. As mentioned, both Flax and Jax can crash on simple neural networks.
-
-Just this weekend I ran into another subtle problem running a PDE learning PyTorch library. The library can learn a PDE on CPU, but on MPS, the model just slowly converges to a flatline over training.
+Just this weekend I ran into another subtle problem running a PDE learning PyTorch library. The library works on CPU, but on MPS, the model just slowly converges to output a flat line over training. I spent a few minutes thinking it was working because it looked reasonable-but-wrong when the model was undertrained. One of the losses must be evaluating zero.
 
 ### Driver and community lock-in is real.
 NVIDIA really has a monopoly on accelerators. I am looking forward to more hardware options. Unless you are interested in accelerator debugging, it's not worth an individual's time to deal with hardware compatibility issues: just pay the NVIDIA premium. 
