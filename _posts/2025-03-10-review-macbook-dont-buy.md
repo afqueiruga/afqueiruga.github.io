@@ -33,7 +33,7 @@ This cost me a few weeks of painful debugging on a side project:  I was writing 
 4. The model training would NaN after two iterations!
 
 
-I worked on debugging my loss function, trying different RL methods, and checked for bugs in my dataset. After a few weeks, I realized that the problem was the Torch drivers! I couldn't replicate the self-play within PyTorch (I was using ollama for base model rollouts.) I eventually realized that not even GPT2 count infer in Torch on GPU.
+I worked on debugging my loss function, trying different RL methods, and checked for bugs in my dataset. After a few weeks, I realized that the problem was the Torch drivers! I couldn't replicate the self-play within PyTorch (I was using ollama for base model rollouts.) I eventually realized that not even GPT2 would infer correctly in PyTorch on the MPS GPU.
 
 > Aside: This is a pretty funny task to give to an LLM: they implicitly know the game, follow the formatting instructions, and give reasonable CoTs. But when actually playing, 50% of the time the clue is "I am on the blue team so I will give the clue "BLUE 3" so my teammates pick the words marked as belonging to the blue team". 🙄 It seemed like a fun project to try RL where negative rewards by self play could fix that.
 
