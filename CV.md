@@ -23,6 +23,7 @@ Aug 2007 -- May 2011 **Carnegie Mellon University**
 **Google, LLC**  
 Oct 2022 -- Present **Senior Software Engineer**  
 Dec 2019 -- Oct 2022 **Software Engineer**  
+*AI-powered Retail Ads*: LLM-optimized and driven ad experiences.  
 *Discover Feed Ads*: ML infra and quality for retrieval systems  
 
 **Lawrence Berkeley National Laboratory**  
