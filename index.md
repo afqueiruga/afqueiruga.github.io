@@ -37,6 +37,7 @@ The site icon is a heatmap of an ML weight matrix learning the 1D Poisson equati
 
 Some of my active work can be found on Github and in my hosted [presentations](https://afqueiruga.github.io/cv).
 There are links to as many of my publications as possible on the CV page of this site. Conference presentations also have links to the recordings or slides. You can also find different things I work on around the internet:  
+
 [google scholar](https://scholar.google.com/citations?user=5lV0WOgAAAAJ&hl=en&oi=ao) Papers  
 [<i class="fa fa-linkedin"></i > afqueiruga](https://www.linkedin.com/in/afqueiruga/) LinkedIn  
 [<i class="fa fa-github"></i > afqueiruga](https://github.com/afqueiruga) Research codes  
