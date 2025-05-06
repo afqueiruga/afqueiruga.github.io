@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Posts
+list_title: Posts
 permalink: /posts/
 ---
