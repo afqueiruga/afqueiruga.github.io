@@ -1,5 +1,5 @@
 ---
-layout: home
-list_title: Posts
+layout: base
+title: Posts
 permalink: /posts/
 ---
