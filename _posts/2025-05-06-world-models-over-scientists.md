@@ -1,9 +1,9 @@
 ---
 layout: post
 title: AI driven science will advance by not replicating humans
-date: 2025-03-16
+date: 2025-07-16
 categories: workflow
-published: False
+published: True
 ---
 # AI driven Science
 
