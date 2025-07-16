@@ -23,7 +23,7 @@ Getting agents to fully automate science is a new optimistic goal for AI develop
 4. Proposed by AgentReview, AI^2 -- as a closed loop system of AIs writing papers for AIs to read, AIs reviewing AI-written papers, and then synthesizing blog posts for humans to read.
 
 These are AIs that are trying to replicate how humans do science. We're dressing up the shoggoth in a lab coat and giving it human tools:  
-![An AI generated cartoon of a shoggoth wearing a lab coat holding a beaker.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_scientist.png) 
+![An AI generated cartoon of a shoggoth wearing a lab coat holding a beaker.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_scientist.jpeg) 
 
 Gi What is the actual goal of science? What processes are we trying to replicate and which are we trying to replace? In this approach, the modality of the AI is reading papers and submitting papers for peer review. However...
 
@@ -62,13 +62,13 @@ AI-as-a-scientist is replicating the way that humans discover inductive biases i
 Following the Bitter Lesson, I think we should be trying to use our compute powers to *remove* inductive biases. From the instrumentalist point of view, we should be seeking to remove all inductive biases and instead maximizing how much next-state data we ingest in our models and maxing out on compute-parameters. 
 
 I think this implies the world modeling paradigm. We've seen multiple interactive world models that are trained on pure video. ICLR had many very impressive results on games (Genie [https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/), Gamengen, GameNGen with Doom [https://gamengen.github.io/](https://gamengen.github.io/)), but world models are used for real world tasks too: comma.ai has been using full end-to-end trained world models for self driving: [https://blog.comma.ai/mlsim](https://blog.comma.ai/mlsim) [https://arxiv.org/pdf/2504.19077](https://arxiv.org/pdf/2504.19077)). I am bullish that this can clearly be pushed to the limits to actually learn physics. I don't even think state-action inputs are required: video generators such as Veo 2 [https://deepmind.google/technologies/veo/veo-2/](https://deepmind.google/technologies/veo/veo-2/) also are learning physics and agent minds.  
-![An AI generated cartoon of a giant shoggoth in space eating the earth with a tentacle holding a scientific report.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_getting_fed.png)  
+![An AI generated cartoon of a giant shoggoth in space eating the earth with a tentacle holding a scientific report.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_eating_world.png)  
 What I think we should focus on instead is interpretability of world models. We should be pushing data collection and pretraining of world models to the extreme and encompass as many modes as possible -- natural video of egocentric views and robotics, microscopy, satellite imagery, new input modalities for chemical reactions, etc -- and throw them all into the world model training recipe. That alone can give us a useful tool in a unified model that can predict anything -- from the instrumentalist point of view, a black box is a useful scientific artifact. If we care about the "why", we humans, perhaps with AI co-scientists, can then extract the inner circuits of the world model.
 
 ## How do AI Scientists fit into a world-model central view?
 
 The LLM driven agents can still be useful to automate writing the code and preparing data for the world model pretraining and analysis. Fusing the two cartoon metaphors, the AI Scientists are working as ML engineers instead, feeding the massive world model:  
-![An AI generated cartoon of a giant shoggoth eating a planet with small shoggoth scientists feeding it.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_getting_fed.png)  
+![An AI generated cartoon of a giant shoggoth eating a planet with small shoggoth scientists feeding it.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_getting_fed.jpeg)  
 The AI Scientists don't make the discoveries themselves. The world model is at the center of extracting information from the world. The LLM scientist agents are in service of the world model and to distill information from it for humans.
 
 ## Validation of world models
