@@ -25,7 +25,7 @@ Getting agents to fully automate science is a new optimistic goal for AI develop
 These are AIs that are trying to replicate how humans do science. We're dressing up the shoggoth in a lab coat and giving it human tools:  
 ![An AI generated cartoon of a shoggoth wearing a lab coat holding a beaker.]({{ BASE_PATH }}/assets/world-models-over-scientists_files/shoggoth_scientist.jpeg) 
 
-Gi What is the actual goal of science? What processes are we trying to replicate and which are we trying to replace? In this approach, the modality of the AI is reading papers and submitting papers for peer review. However...
+What is the actual goal of science? What processes are we trying to replicate and which are we trying to replace? In this approach, the modality of the AI is reading papers and submitting papers for peer review. However...
 
 ## Human publishing is a *terrible* way to do science
 
