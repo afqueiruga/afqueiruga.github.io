@@ -114,22 +114,23 @@ May--Aug 2013 **Graduate Researcher**
 
 # Invited Talks
 
-1. **Queiruga, A.F.** ["Continuous-in-Depth Neural Networks through Interpretation of Learned Dynamics"](https://www.youtube.com/watch?v=_aX3T1Smg54) 1st Workshop on Scientific-Driven Deep Learning (SciDL), July 1 2020.
-1. **Queiruga, A. F.**, ["Machine Determination of Better
+1. **Queiruga, A. F.** [*Pruning Demo* Tutorial within “Efficient Transformers: State of the art in pruning, sparse attention, and transformer funneling,”](https://neurips.cc/virtual/2025/loc/mexico-city/128790) NeurIPS, Mexico City, Dec 2 2025.
+2. **Queiruga, A.F.** ["Continuous-in-Depth Neural Networks through Interpretation of Learned Dynamics,"](https://www.youtube.com/watch?v=_aX3T1Smg54) 1st Workshop on Scientific-Driven Deep Learning (SciDL), July 1 2020.
+3. **Queiruga, A. F.**, ["Machine Determination of Better
    Representations of Multiphase Equation of States for Subsurface
    Flow Simulation,"](https://www.ocf.berkeley.edu/~afq/present/SantaFe2019/)
    Machine Learning in Solid Earth Geoscience, Santa Fe, Nevada,
    March 2019.
-1. **Queiruga, A. F.**, ["Fully Coupled Multimesh Algorithms for
+4. **Queiruga, A. F.**, ["Fully Coupled Multimesh Algorithms for
    Nonisothermal Multiphase Flow and Mechanics in Geological
    Formations"](https://www.ocf.berkeley.edu/~afq/present/Siam2019/), SIAM Conference on Mathematical &
    Computational Issues in Geosciences, Houston, Texas, March 2019.
-1. **Queiruga, A. F.** and G. J. Moridis, [“Numerical experiments on 
+5. **Queiruga, A. F.** and G. J. Moridis, [“Numerical experiments on 
   the convergence properties of state-based peridynamic laws and 
   influence functions in two-dimensional problems,”](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/wccm_inline.html) World 
   Congress of Computational Mechanics, New York City, New York, 
   July 2018.
-1. **Queiruga, A. F.** and G. J. Moridis, [“Smoothing Methods to
+6. **Queiruga, A. F.** and G. J. Moridis, [“Smoothing Methods to
    Address the Numerical Stability of Peridynamics Near the Fracture
    Tip in Hydraulic Extension,"](https://www.ocf.berkeley.edu/~afq/present/Peridynamics/usnctam_inline.html) 18th U.S. National Congress for
    Theoretical and Applied Mechanics, Rosemont, Illinois, June 2018.
