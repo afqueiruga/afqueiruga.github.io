@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Clock — Support</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --fg: #1a1a1a;
+            --muted: #666;
+            --border: #e0e0e0;
+            --accent: #0071e3;
+            --card-bg: #fff;
+            --code-bg: #f0f0f0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111;
+                --fg: #e8e8e8;
+                --muted: #999;
+                --border: #333;
+                --accent: #2997ff;
+                --card-bg: #1a1a1a;
+                --code-bg: #222;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        header p {
+            color: var(--muted);
+            margin-top: 8px;
+            font-size: 1.05rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        nav a:hover { text-decoration: underline; }
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 0.95rem;
+            color: var(--fg);
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        .card p:last-child { margin-bottom: 0; }
+        a { color: var(--accent); }
+        code {
+            background: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.88rem;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 48px 0;
+        }
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.82rem;
+            margin-top: 48px;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--code-bg);
+            color: var(--muted);
+            font-size: 0.78rem;
+            padding: 3px 10px;
+            border-radius: 999px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GenAI Clock</h1>
+            <p>AI Art That Can't Tell Time</p>
+        </header>
+        <nav>
+            <a href="#support">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+        </nav>
+
+        <section id="about">
+            <h2>About the App</h2>
+            <p>GenAI Clock is an Apple Watch and iPhone app that displays AI-generated clock face imagery. It is an art project that explores what happens when generative AI attempts precision tasks like rendering clock faces.</p>
+            <p>A custom ML algorithm ensures the displayed time is always correct, but the artwork around it is intentionally imperfect: hands sprout extra segments, numerals drift into impossible positions, and dials twist into surreal shapes.</p>
+            <div class="card">
+                <p><strong>Platforms:</strong></p>
+                <span class="badge">Apple Watch</span>
+                <span class="badge">iPhone</span>
+                <span class="badge">iPad</span>
+                <p style="margin-top: 12px"><strong>Requires:</strong> watchOS 11.5 or later, iOS 18.5 or later</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>A new AI-generated clock face every minute you glance at your wrist</li>
+                <li>Multiple visual styles to choose from</li>
+                <li>Watch complication for glanceable generative art on your watch face</li>
+                <li>iPhone and iPad app with home screen and Lock Screen widgets</li>
+                <li>World Clock widget showing AI clock faces for multiple timezones</li>
+                <li>Digital Crown scrolls through time for previewing other clock faces</li>
+                <li>Fully offline &mdash; all images are pre-loaded on device</li>
+                <li>No data collection, no accounts, no subscriptions</li>
+            </ul>
+        </section>
+
+        <section id="support">
+            <h2>Support</h2>
+
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="card">
+                <h3>Why do the clock faces look wrong?</h3>
+                <p>That's the point! GenAI Clock is an art project that highlights how generative AI struggles with precision tasks. The time shown is always accurate, but the artwork is intentionally imperfect.</p>
+            </div>
+
+            <div class="card">
+                <h3>Does this replace my Apple Watch face?</h3>
+                <p>No. GenAI Clock is a standalone app and does not modify or replace your system watch face. The watch complication displays AI-generated art within Apple's standard complication slots.</p>
+            </div>
+
+            <div class="card">
+                <h3>How do I add the complication to my watch face?</h3>
+                <p>Long-press your watch face, tap <strong>Edit</strong>, swipe to the complications section, tap a rectangular slot, and select <strong>GenAI Clock</strong> from the list.</p>
+            </div>
+
+            <div class="card">
+                <h3>How do I add widgets on iPhone or iPad?</h3>
+                <p>Long-press your home screen, tap the <strong>+</strong> button, search for <strong>GenAI Clock</strong>, and choose from small, medium, or large sizes. A World Clock widget is also available.</p>
+            </div>
+
+            <div class="card">
+                <h3>How do I change styles?</h3>
+                <p>On Apple Watch, long-press the clock face in the app to open Settings, then enable or disable styles. On iPhone, open the app and go to Settings to select your preferred styles.</p>
+            </div>
+
+            <div class="card">
+                <h3>How do I scroll through time on the watch?</h3>
+                <p>Turn the Digital Crown to preview different minutes. The display automatically returns to the current time after 10 seconds.</p>
+            </div>
+
+            <div class="card">
+                <h3>The widget appears blank or stuck.</h3>
+                <p>Widgets rely on the system's WidgetKit framework, which has aggressive caching. Try these steps:</p>
+                <ul>
+                    <li>Restart your Apple Watch or iPhone</li>
+                    <li>Remove the widget/complication and re-add it</li>
+                    <li>Make sure GenAI Clock is installed (not offloaded)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Does the app require an internet connection?</h3>
+                <p>No. All clock face images are stored locally on your device. The app works entirely offline.</p>
+            </div>
+
+            <h3>Contact</h3>
+            <p>If you need further help or want to report a bug, please email us at:</p>
+            <p><a href="mailto:gen.ai.clock.app@gmail.com">gen.ai.clock.app@gmail.com</a></p>
+        </section>
+
+        <hr class="divider">
+        <footer>
+            <p>&copy; 2026 AFQ. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html">Privacy Policy</a> &middot;
+                <a href="terms.html">Terms of Use</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
