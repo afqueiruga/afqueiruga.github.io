@@ -106,6 +106,7 @@ May--Aug 2013 **Graduate Researcher**
 
 # Non-refereed works
 
+- **Queiruga, A. F.** [Divine Benevolence is an $x^2$: GLUs scale asymptotically faster than MLPs](https://arxiv.org/abs/2602.14495)  arXiv preprint arXiv:2602.14495 (2026).
 - **Queiruga, A. F.**, T. Gutman-Solo, S. Jiang. ["Interpretability and Generalization Bounds for Learning Spatial Physics."](https://arxiv.org/abs/2506.15199) arXiv preprint arXiv:2506.15199 (2025).
 - **Queiruga, A. F.**, N. B. Erichson, D. Taylor, and M. W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
 - J. Newman, B. Cariste, **A. F. Queiruga**, I. Davis, B. Plotnick, M. 
