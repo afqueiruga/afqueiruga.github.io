@@ -12,19 +12,22 @@ Aug 2011 -- May 2015 **University of California, Berkeley**
 Designated Emphasis in Computational and Data Science and Engineering  
 **M.Sc.** in Mechanical Engineering (Dec 2013)  
 
-<!-- Dissertation: *Microscale Simulation of the Mechanical and 
-Electromagnetic Behavior of Textiles*   -->
+
 
 Aug 2007 -- May 2011 **Carnegie Mellon University**  
 **B.Sc.** in Mechanical Engineering
 
 # Professional Experience
 
-**Google, LLC**  
-Oct 2022 -- Present **Senior Software Engineer**  
+**OpenAI**  
+Feb 2026 -- Present **Member of Technical Staff**  
+*Ads*
+
+**Google**  
+Oct 2022 -- Jan 2026 **Senior Software Engineer**  
 Dec 2019 -- Oct 2022 **Software Engineer**  
 *AI-powered Retail Ads*: LLM-optimized and driven ad experiences.  
-*Discover Feed Ads*: ML infra and quality for retrieval systems  
+*Discover Feed Ads*: ML infra and quality for retrieval systems.  
 
 **Lawrence Berkeley National Laboratory**  
 Feb 2018 -- Dec 2019 **Project Scientist**  
@@ -56,9 +59,13 @@ May--Aug 2013 **Graduate Researcher**
 
 # Conference Papers
 
+- **Queiruga, A. F.**, T. Gutman-Solo, S. Jiang. ["Interpretability and Generalization Bounds for Learning Spatial Physics."](https://arxiv.org/abs/2506.15199) International Conference on Machine Learning, 2026.
 1. **Queiruga, A. F.,** N. B. Erichson, L. Hodgkinson, and M. W. Mahoney. ["Stateful ode-nets using basis function expansions."](https://arxiv.org/abs/2106.10820) Advances in Neural Information Processing Systems 34 (2021): 21770-21781.
 2. Erichson, N. B., Azencot, O., **Queiruga, A. F.,** Hodgkinson, L., & Mahoney, M. W. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) In International Conference on Learning Representations, 2020.
 
+# Workshop Papers
+
+- **Queiruga, A. F.** [Divine Benevolence is an $x^2$: GLUs scale asymptotically faster than MLPs](https://arxiv.org/abs/2602.14495)  Workshop on Scientific Methods for Understanding Deep Learning, ICLR, 2026.
 
 # Publications
 
@@ -106,8 +113,6 @@ May--Aug 2013 **Graduate Researcher**
 
 # Non-refereed works
 
-- **Queiruga, A. F.** [Divine Benevolence is an $x^2$: GLUs scale asymptotically faster than MLPs](https://arxiv.org/abs/2602.14495)  arXiv preprint arXiv:2602.14495 (2026).
-- **Queiruga, A. F.**, T. Gutman-Solo, S. Jiang. ["Interpretability and Generalization Bounds for Learning Spatial Physics."](https://arxiv.org/abs/2506.15199) arXiv preprint arXiv:2506.15199 (2025).
 - **Queiruga, A. F.**, N. B. Erichson, D. Taylor, and M. W. Mahoney. ["Continuous-in-Depth Neural Networks."](https://res.arxiv.org/abs/2008.02389) arXiv preprint arXiv:2008.02389 (2020).
 - J. Newman, B. Cariste, **A. F. Queiruga**, I. Davis, B. Plotnick, M. 
   Gordon, and S. San Martín, “Thermoacoustic refrigeration,” GSET 

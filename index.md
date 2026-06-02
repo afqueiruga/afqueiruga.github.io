@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <img align="center" src="about/images/mug2018.jpeg" width="250" style="margin:25px 25px">
 
-I'm a machine learning engineer and researcher, working on computational methods broadly.
-I'm currently at Google, where I TL AI-powered Retail Ads, optimizing product ad copy using LLMs on Search, and designing new monetization strategies for LLM-driven experiences.
-I formerly worked on ML quality and infrastructure for serving ads on the Discover Feed (those recommended sites below the search bar.)
+I'm an AI researcher and engineer, working on computational methods broadly.
+I'm currently at OpenAI, building out the new monetization products.
+I was previously at Google, working across a few different Ads products, most notably on applying LLMs to ads, and ads to LLMs.
 
 My research interests lie in the intersection of machine learning and scientific settings. I am particularly interested in studying and correcting failure models in applying ML to scientific problems and developing robust validation methods.
 
