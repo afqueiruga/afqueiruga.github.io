@@ -59,7 +59,7 @@ May--Aug 2013 **Graduate Researcher**
 
 # Conference Papers
 
-- **Queiruga, A. F.**, T. Gutman-Solo, S. Jiang. ["Interpretability and Generalization Bounds for Learning Spatial Physics."](https://arxiv.org/abs/2506.15199) International Conference on Machine Learning, 2026.
+1. **Queiruga, A. F.**, T. Gutman-Solo, S. Jiang. ["Interpretability and Generalization Bounds for Learning Spatial Physics."](https://arxiv.org/abs/2506.15199) International Conference on Machine Learning, 2026.
 1. **Queiruga, A. F.,** N. B. Erichson, L. Hodgkinson, and M. W. Mahoney. ["Stateful ode-nets using basis function expansions."](https://arxiv.org/abs/2106.10820) Advances in Neural Information Processing Systems 34 (2021): 21770-21781.
 2. Erichson, N. B., Azencot, O., **Queiruga, A. F.,** Hodgkinson, L., & Mahoney, M. W. ["Lipschitz Recurrent Neural Networks."](https://arxiv.org/abs/2006.12070) In International Conference on Learning Representations, 2020.
 
