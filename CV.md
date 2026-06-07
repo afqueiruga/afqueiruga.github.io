@@ -69,6 +69,7 @@ May--Aug 2013 **Graduate Researcher**
 
 # Publications
 
+1. Jiang, Shuai, and **A. F. Queiruga.** ["What Should Physics Foundation Model Benchmarks Measure?"](https://ieeexplore.ieee.org/abstract/document/11543437) Computing in Science & Engineering (2026).
 1. Krishnapriyan, A. S., **A. F. Queiruga (equal contribution)**, N. B. Erichson, and M. W. Mahoney. ["Learning continuous models for continuous physics."](https://www.nature.com/articles/s42005-023-01433-4) Nature Communications Physics 6, 319 (2023). [doi: 10.1038/s42005-023-01433-4](https://doi.org/10.1038/s42005-023-01433-4) ([arxiv](https://arxiv.org/abs/2202.08494))
 1. White, M.D., Kneafsey, T.J., Seol, Y., Waite, W.F., Uchida, S., Lin, J.S., Myshakin, E.M., Gai, X., Gupta, S., Reagan, M.T. and **Queiruga, A.F.**,. ["An international code comparison study on coupled thermal, hydrologic and geomechanical processes of natural gas hydrate-bearing sediments."](https://doi.org/10.1016/j.marpetgeo.2020.104566) Marine and Petroleum Geology, p.104566. (2020) [doi: 10.1016/j.marpetgeo.2020.104566](https://doi.org/10.1016/j.marpetgeo.2020.104566)
 1. Abali, B. E. and **A. F. Queiruga**, ["Theory and computation of
