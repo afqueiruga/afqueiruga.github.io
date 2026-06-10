@@ -25,11 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <img align="center" src="about/images/mug2018.jpeg" width="250" style="margin:25px 25px">
 
-I'm an AI researcher and engineer, working on computational methods broadly.
-I'm currently at OpenAI, building out the new monetization products.
+I'm an AI researcher and engineer.
+I'm currently at OpenAI, building out the new monetization products (the ads in ChatGPT).
 I was previously at Google, working across a few different Ads products, most notably on applying LLMs to ads, and ads to LLMs.
 
-My research interests lie in the intersection of machine learning and scientific settings. I am particularly interested in studying and correcting failure models in applying ML to scientific problems and developing robust validation methods.
+My time these days is mostly allocated product-focused research, but I still work on ML theory.
+I'm particularly interested in quantifying and correcting the failure modes when applying ML to scientific problems, identifying when you can and *can't* learn the underlying governing equations.
 
 The pageload animation is the Stable Diffusion in-painting process. The first frame is the initial random image, and each frame is one step of denoising towards a top-of-fold screenshot. It's just a pre-rendered video with two variations for mobile and desktop. [Inspect it here.](assets/full_screen_animation_iPhone12.mp4)
 
